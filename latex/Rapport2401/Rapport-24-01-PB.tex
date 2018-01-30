@@ -1,0 +1,78 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+\section{Conduite de projet}
+
+Le projet EBDO se découpe en plusieurs sous-projet :
+\begin{itemize}
+
+	\item Backend, s'occupe des calculs nécessaire pour le traitement des données. Il s'agit de calculs lourds et sont effectués avec des outils adaptés (Spark, Hadoop).
+
+	\item Ingester, permet de remplir les bases de données avec les enregistrements apportés par les utilisateurs. Il permet de gérer les différents formats et de les intégrer dans la base de données sous un même format.
+
+	\item Middleware, permet de servir les informations extraites des données suivant les requêtes des utilisateurs.
+
+	\item Frontend, permet de visualiser les données et les informations pour permettre à l'utilisateur de mieux appréhender les phénomènes détectés.
+
+\end{itemize}
+
+\subsection{Objectifs}
+
+\subsubsection{Backend}
+
+Pour la partie Backend du projet, on se concentrera essentiellement sur le calcul de caractéristiques des fichiers audios. Par exemple, le centre de gravité spectrale, l'entropie spectrale, le roll-off spectral, etc ...
+
+La taille des données à traiter étant gigantesque, les outils classiques ne suffisent plus. On s'est tourné vers les technologies du Big Data, notamment le moteur Spark et le système de stockage Hadoop. Ces outils permettent de faire des calculs et du stockage parallélisés.
+
+Ces caractéristiques seront ensuite transmis au Middleware grâce à des fichiers JSON.
+
+Pour la suite du projet, on se penchera sur l'exploitation de ces informations. On utilisera des algorithmes de machines learning afin de détecter des zones d'intérêts dans le fichier. Dans un second temps, on cherchera à classifier les différents événements détecter dans ces zones.
+
+\subsubsection{Ingester}
+
+La partie Ingester supporte déjà un grand nombre de format de données. En effet, grâce à un fichier de configuration, on indique de quelle manière sont organisées les données. De cette manière, l'Ingester est très flexible et permet de s'adapter à toutes sortes de données. 
+
+Il reste encore à gérer d'autres format même si les plus couramment utiliser sont supporter.
+
+\subsubsection{Middleware}
+
+Le Middleware permet de servir les informations extraites des enregistrements et de les servir suivant des requêtes émise par les utilisateurs.
+
+L'architecture permettant de gérer les requêtes est terminée. Il faut maintenant ajouter le traitement de requête plus spécifiques pour répondre aux plus de besoin de l'utilisateur.
+
+\subsubsection{Frontend}
+
+La partie Frontend permet de visualiser les données pertinentes afin de faciliter la compréhension des phénomènes observés.
+
+Aucun élève de l'ENSTA ne participe à son développement. Des étudiants d'une autre université s'occupe de cette partie.
+
+\subsection{Outils de collaboration}
+
+Pour communiquer et travailler de manière efficace, notre équipe utilise les outils suivant : 
+
+\begin{itemize}
+
+	\item Github, plate-forme mondiale qui facilite le développement en équipe.
+	
+	\item Slack, plate-forme de communication collaborative qui permet à toutes les parties du projet de rester en contact.
+	
+	\item Trello, plate-forme qui permet de gérer les tâches de l'équipe. Chaque tâche est représentée par une carte assignable à une personne. Cette carte peut ensuite être modifiée pour indiquer son état d'avancement.
+	
+	\item Google Drive, site de partage de fichiers. Ce site nous permet d'échanger des fichiers assez volumineux, comme par exemple des fichiers audios de tests, de la documentation sur les différentes parties du projet, etc ...
+
+\end{itemize}
+
+En plus de ces outils, des réunions sont régulièrement organisées par le chef de projet, Dorian CAZAU. Durant ces réunions, l'état d'avancement de chaque sous-projet est abordé. Ces réunions permettent de résoudre les problèmes rencontrés et de réfléchir à une solution ensemble.
+
+Une fois atteint, de nouveaux objectifs sont aussi définis lors de ces réunions.
+
+\section{Conclusion}
+
+Le projet EBDO est composé de sous-projet très différents les uns des autres. Pour faire avancer l'ensemble de manière efficace, il est nécessaire d'avoir une bonne communication entre les différentes parties.
+
+C'est pourquoi nous utilisons essentiellement des outils collaboratifs pour travailler. Ce choix est aussi justifié par le fait qu'une partie du projet est réalisée par des étudiants d'une autre école.
+
+\end{document}

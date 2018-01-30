@@ -1,0 +1,57 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{rotating}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow, makecell, longtable}
+\usepackage{geometry}
+\begin{document}
+
+\definecolor{headb}{HTML}{1F497D}
+\definecolor{lineb}{HTML}{D3DFEE}
+
+
+
+
+\newgeometry{left=10px, top=10px}
+\begin{longtable}{|c|c|p{4cm}|c|c|p{2cm}|p{4cm}|}
+	\hline
+	ID & Nom & Description & Type & Priorité & \'Etat & Raison d'être \\
+	E01 & ingestSound & Le système doit pouvoir ingérer des données acoustiques brutes & Fonction & 3 & Acceptée & Fonction nécessaire à E02, le système doit ingérer des données pour les traiter \\
+	E02 & treatment & Le système doit pouvoir effectuer des traitements (E03, E04) sur les données acoustique stockées & Fonction & 2 & Accepté & \\
+	E03 & pressLevel & Le système doit pouvoir calculer des niveaux de pression acoustiqes sur les données acoustiques & Fonction & 2 & Acceptée & \multirowcell{3}{Nécessaire pour fournir le servie à l'utilisateur. L'obtention de ces traitements est la raison d'être du système.} \\
+	E04 & Fft & Le système doit pouvoir calculer la fft de signaux acoustiques. & Fonction & 2 & Acceptée & \\
+	E05 & SonMetaData &Le système doit pouvoir être en mesure d’extraire des informations des données acoustiques brutes qui lui sont donnés (E06, E07). & Fonction & 1 & Acceptée & \\
+	E06 & dateMetadata & Le système doit pouvoir être en mesure d’extraire la date (E08) d’enregistrement des données acoustiques brutes qui lui sont donnés. & Fonction & 2 & Acceptée & \multirowcell{3}{Nécessaire afin de répondre aux exigences E16 et E17.} \\
+	E07 & geoMetadata &Le système doit pouvoir être en mesure d’extraire le lieu d’enregistrement des données acoustiques brutes qui lui sont donnés. & Fonction & 1 & À l’étude & \\
+	E08 & dateFormat & Le système doit pouvoir être en mesure d’opérer avec le format de date ISO 8601. & Contrainte & 1 & Acceptée & Normes internationales \\
+	E09 & storeData & Le système doit pouvoir être en mesure de stocker les données traités (E02), les métadonnées (E06, E07) et les données auxiliaires (E0). & Fonction & 3 & Acceptée & Le système doit être en mesure de proposer des données déjà traités sans les recalculer. \\
+	E10 & auxData & Le système doit pouvoir être en mesure d’ingérer des données auxiliaires (E20, E21). & Fonction & 3 & Acceptée & Ces données auxiliraires sont demandés par l’utilisateur en E?? \\
+	E11 & weatherData & Le système doit pouvoir être en mesure d’ingérer des données météorologiques aux formats défini par E12 & Fonction & 2 & Acceptée & Ces données sont mises en corrélation avec les données acoustiqes \\
+	E12 & weatherFormat & Le système doit pouvoir être en mesure d’ingérer des données météorologiques aux format (E24) à partir de csv et json. & Contrainte & 2 & Acceptée & CSV et JSON sont les formats les plus couramment utilisés. \\
+	E13 & wgetData & Le système doit pouvoir servir les données traitées (E05, E06, E07) qu’il stocke de façon distante, en http(s). & Fonction & 1 & Acceptée & \\
+	E14 & requestData & Le système doit pouvoir servir des données en réponse à une demande précise (E17, E18, E19). & Fonction & 1 & Acceptée & \multirowcell{3}{L’utilisateur aura accès à ces informations via un site web.} \\
+	E15 & reqTreatment & Le système doit pouvoir servir des résultats de traitements qui correspondent à des critères définis par l’utilisateur (E16). & Fonction & 1 & Acceptée & \\
+	E16 & reqDateRange & Le système doit pouvoir servir l’ensemble des données dont il dispose sur une plage de temps définie par l’utilisateur (E25). & Fonction & 2 & Acceptée & \multirowcell{2}{L’utilisateur expert aura besoin de ces informations.} \\
+	E17 & reqGeoRange & Le système doit pouvoir servir l’ensemble données dont il dispose qui sont proche de coordonnées géographiques définies par l’utilisateur. & Fonction & 2 & Acceptée & \\
+	E18 & fftVisual & Le système doit pouvoir proposer une visualisation spectrale des données issues du traitement par fft. & Fonction & 1 & Acceptée & Visualisation E04. \\
+	E19 & plVisual & Le système doit pouvoir proposer une visualisation sous la forme d’un graphique (t;pl) des niveaux de pression acoustiques calculés. & Fonction & 1 & Acceptée & Visualisation E03. \\
+	E20 & ingest & Le système doit pouvoir recevoir via internet des données de la part de l’utilisateur. & Fonction & 2 & Acceptée & Description de la méthode d’ingestion des données de E10 \\
+	E21 & visualIngest & Le système doit permettre à l’utilisateur d’envoyer ses données avec une fonction drag'n'drop. & Contrainte & 2 & À définir & Amélioration de l’ergonomie du site web \\
+	E22 & storeLargeData & Le système doit pouvoir stocker des données brutes massives de l’ordre de 1 TB par enregistrement. & Contrainte & 2 & Acceptée & Enregistrement audio de longues durées \\
+	E23 & treatLargeData & Le système doit pouvoir traiter les données brutes massives stockées. & Contrainte & 1 & Acceptée & Découle de E22 \\
+	E24 & formatDataWeather & Le système doit ingérer des données météorologiques à partir d’un fichier .csv au format 1. & Contrainte & 2 & Acceptée & Définition du format de E12 \\
+	E25 & dateRange & Le système doit pouvoir aggréger les données traitées sur une durée définie par l’utilisateur. La valeur par défaut est 1 seconde. & Fonction & 2 & Acceptée & Définition de la plage de temps utilisateur (E16) \\
+	E26 & ingAuxData & Le système doit pouvoir ingérer les données auxiliaires d’un utilisateur. & Fonction & 2 & Acceptée & Le système fait apparaître des informations les données brute et des données auxiliaires. \\
+
+
+\hline
+\end{longtable}
+\restoregeometry
+
+
+
+\end{document}
