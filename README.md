@@ -1,10 +1,16 @@
 # Repository for my school project
 
 ## C
-Project written in C
+Projects written in C
 
 ## Python
-Project written in Python
+Projects written in Python
+
+## Matlab
+Projects written in Matlab
+
+## Java
+Projects written in JAVA
 
 ## Latex
-Work written in Latex
+Workds written in Latex
