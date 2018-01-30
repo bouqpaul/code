@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
-from roblib import *
+"""
+Created on Mon Dec  4 18:51:55 2017
 
+@author: vibar
+"""
+
+from roblib import *
+import json, codecs
 def init():
     plt.close("all")
     fig = plt.figure("Position")
@@ -37,6 +43,7 @@ T = array([[10540, 10920, 13740, 17480, 30380, 36880, 40240, 48170, 51720, 52320
     
 def observ(k, nx, data, T):
     depth = data[:, 7]
+#    y = array([[depth[k]]])
     y = depth[k]
     phi = data[:, 1]
     theta = data[:, 2]
@@ -47,6 +54,7 @@ def observ(k, nx, data, T):
     C = zeros((1, nx))
     C[0, 2] = 1
     
+#    Gbeta = array([[0.01]])
     Gbeta = 0.01
     
     j = indiceTrouve(k, T[0, :])
@@ -95,7 +103,7 @@ def smoother(data, ax, dt, nx, nm):
     x_forward[0] = zeros((nx, 1))
     tmp = (10**5) * eye(2* nm)
     G_forward[0] = block_diag(0, 0, 0, tmp)
-    Galpha = block_diag(0.01, 0.01, 0.01, eye(2 * nm))
+    Galpha = block_diag(0.01, 0.01, 0.01, zeros((2 * nm,2*nm)))
     A = eye(nx)
     
     phi = data[:, 1]
@@ -128,9 +136,9 @@ def smoother(data, ax, dt, nx, nm):
     
 def Filter(data, ax, dt, nx, nm):
     xhat = zeros((nx, 1))
-    tmp = (10**4) * eye(2* nm)
+    tmp = (10**5 ) * eye(2* nm)
     Ghat = block_diag(0, 0, 0, tmp)
-    Galpha = block_diag(0.01, 0.01, 0.01, eye(2 * nm))
+    Galpha = block_diag(0.01, 0.01, 0.01, zeros((2 * nm,2*nm)))
     A = eye(nx)
     
     phi = data[:, 1]
@@ -191,7 +199,7 @@ def slam(data):
     nm = 6
     nx = np + 2 * nm
     fig, ax = init()
-#    predict(data, ax, dt)
+    #predict(data, ax, dt)
 #    Filter(data, ax, dt, nx, nm)
     smoother(data, ax, dt, nx, nm)
     

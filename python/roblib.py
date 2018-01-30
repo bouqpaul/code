@@ -26,34 +26,34 @@ from matplotlib.collections import PatchCollection
 
 
 
-def eulermat(φ,θ,ψ):
-    Ad_i = array([[0, 0, 0],[0,0,-1],[0,1,0]])
-    Ad_j = array([[0,0,1],[0,0,0],[-1,0,0]])
-    Ad_k = array([[0,-1,0],[1,0,0],[0,0,0]])
+def eulermat(φ, θ, ψ):
+    Ad_i = array([[0, 0, 0], [0, 0, -1], [0, 1, 0]])
+    Ad_j = array([[0, 0, 1], [0, 0, 0], [-1, 0, 0]])
+    Ad_k = array([[0, -1, 0], [1, 0, 0], [ 0, 0, 0]])
     M = expm(ψ*Ad_k) @ expm(θ*Ad_j) @ expm(φ*Ad_i)
     return(M)
 
 def eulerderivative(φ,θ,ψ):
     cφ,sφ,cθ,sθ,tθ,cψ,sψ = cos(φ),sin(φ),cos(θ),sin(θ),sin(θ)/cos(θ),cos(ψ),sin(ψ)        
-    return array([[1,sφ*tθ,cφ*tθ],[0, cφ,-sφ],[0,sφ/cθ,cφ/cθ]])    
+    return array([[1, sφ*tθ, cφ*tθ], [0, cφ,-sφ], [0, sφ/cθ, cφ/cθ]])    
     
 def angle(x):
     x=x.flatten()
     return arctan2(x[1], x[0])
     
 def adjoint(w):    
-    w=w.flatten()
-    return array([[0,-w[2],w[1]] , [w[2],0,-w[0]] , [-w[1],w[0],0]])
+    w = w.flatten()
+    return array([[0, -w[2], w[1]], [w[2], 0, -w[0]], [-w[1], w[0], 0]])
 
     
-def move_motif(M,x,y,θ):
-    M1=ones((1,len(M[1,:])))
-    M2=vstack((M, M1))
-    R = array([[cos(θ),-sin(θ),x], [sin(θ),cos(θ),y]])
-    return(R @ M2)    
+def move_motif(M, x, y, θ):
+    M1 = ones((1, len(M[1,:])))
+    M2 = vstack((M, M1))
+    R = array([[cos(θ), -sin(θ), x], [sin(θ), cos(θ), y]])
+    return (R @ M2)    
 
-def translate_motif(R,x):
-    return   R + x @ ones((1,R.shape[1]))
+def translate_motif(R, x):
+    return   R + x @ ones((1, R.shape[1]))
 
 def motif_circle3D(r):
     n = 10
@@ -61,21 +61,21 @@ def motif_circle3D(r):
     x = r*cos(theta) + array(n*[0])
     y = r*sin(theta) + array(n*[0])
     z = zeros(n)
-    return array([x,y,z])
+    return array([x, y, z])
 
 def motif_auv3D(): #needed by draw_auv3d and sphere
     return array([ [0.0,0.0,10.0,0.0,0.0,10.0,0.0,0.0],
                    [-1.0,1.0,0.0,-1.0,-0.2,0.0,0.2,1.0],
                    [0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0]])
     
-def draw_auv3D(ax,x,φ,θ,ψ,col):   
-    M=eulermat(φ,θ,ψ) @ motif_auv3D()
-    M=translate_motif(M,x[0:3].reshape(3,1)) 
-    ax.plot(M[0],M[1],0*M[2],color='grey')
+def draw_auv3D(ax, x, φ, θ, ψ, col):   
+    M = eulermat(φ, θ, ψ) @ motif_auv3D()
+    M = translate_motif(M, x[0:3].reshape(3, 1)) 
+    ax.plot(M[0], M[1], 0*M[2], color='grey')
     
-def draw_arrow3D(ax,x,w,col):
-    x,w=x.flatten(),w.flatten()
-    ax.quiver(x[0],x[1],x[2],w[0],w[1],w[2],color=col,lw=1,pivot='tail',length=norm(w))
+def draw_arrow3D(ax, x, w, col='k'):
+    x, w = x.flatten(), w.flatten()
+    ax.quiver(x[0], x[1], x[2], w[0], w[1], w[2], color=col, lw=1, pivot='tail', length=norm(w))
 
 def draw_motif3D(ax,M,x,φ,θ,ψ,col,mirror=1):   #mirror=-1 in case z in directed downward
     M=eulermat(φ,θ,ψ) @ M
@@ -122,29 +122,26 @@ def draw_ellipse(c, Γ, η, ax, col): # Gaussian confidence ellipse with artist
     #draw_ellipse(array([[1],[2]]),eye(2),0.9,ax,[1,0.8-0.3*i,0.8-0.3*i])
     if (norm(Γ)==0):
         Γ=Γ+0.001*eye(len(Γ[1,:]))
-        
-    A=sqrtm(-2*log(1-η)*Γ)    
-    w, v = eig(A)  
-      
-    v1=array([[v[0,0]],[v[1,0]]])
-    v2=array([[v[0,1]],[v[1,1]]])    
-        
-    f1=A @ v1
-    f2=A @ v2     
-     
-    φ =  (arctan2(v1 [1,0],v1[0,0]))
-    
-    α=φ*180/3.14
+    A = sqrtm(-2 * log(1 - η) * Γ)    
+    w, v = eig(A)    
+    v1 = array([[v[0,0]],
+                [v[1,0]]])
+    v2=array([[v[0,1]],
+              [v[1,1]]])        
+    f1 = A @ v1
+    f2 = A @ v2      
+    φ =  (arctan2(v1[1, 0],
+                  v1[0, 0]))
+    α = φ * 180 / 3.14
     e = Ellipse(xy=c, width=2*norm(f1), height=2*norm(f2), angle=α)   
     
-    ax.add_artist(e)
+    
     e.set_clip_box(ax.bbox)
     e.set_alpha(0.7)
-    
-    e.set_fill(False)
-    #e.set_facecolor("none")
-    
     e.set_edgecolor(col)
+    e.set_facecolor("none")
+    
+    ax.add_artist(e)
     
     
 
@@ -249,25 +246,18 @@ def kalman_predict(xup,Gup,u,Γα,A):
     x1 = A @ xup + u    
     return(x1,Γ1)    
 
-def kalman_correc(x0, Γ0, y, Γβ, C):
-    print("!!!!! Je suis la !!!!!")
-    S = C @ Γ0 @ C.T + Γβ
-    
-    print(Γ0)
-    print(C.T)
-    
-    K = Γ0 @ C.T
-    K = K @ inv(S)
-    # K = Γ0 @ C.T @ inv(S)           
+def kalman_correc(x0,Γ0,y,Γβ,C):
+    S = C @ Γ0 @ C.T + Γβ        
+    K = Γ0 @ C.T @ inv(S)           
     ytilde = y - C @ x0        
     Gup = (eye(len(x0))-K @ C) @ Γ0 
     xup = x0 + K@ytilde
     return(xup,Gup) 
     
-def kalman(x0, Γ0, u, y, Γα, Γβ, A, C):
-    xup, Gup = kalman_correc(x0, Γ0, y, Γβ,C)
-    x1, Γ1 = kalman_predict(xup, Gup, u, Γα, A)
-    return(x1, Γ1)     
+def kalman(x0,Γ0,u,y,Γα,Γβ,A,C):
+    xup,Gup = kalman_correc(x0,Γ0,y,Γβ,C)
+    x1,Γ1=kalman_predict(xup,Gup,u,Γα,A)
+    return(x1,Γ1)     
 
   
 def demo_draw():  
