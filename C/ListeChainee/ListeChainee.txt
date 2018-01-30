@@ -1,0 +1,10 @@
+struct cell{
+	int value;
+	struct cell * next;
+	
+}
+
+struct list{
+	struct cell * first	
+}
+
