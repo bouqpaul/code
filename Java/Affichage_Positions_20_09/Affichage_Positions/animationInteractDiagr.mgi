@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <CommunicationClass name="animationStarter.DisplayAppli" x="406" y="31">
+        <Association destinationClassName="animationStarter.Position"
+            endpointName="PositionsList" kind="Simple"/>
+        <Association
+            destinationClassName="animationStarter.AnimationStarter"
+            endpointName="frame" kind="Simple"/>
+        <Communication destinationClassName="animationStarter.Position"/>
+    </CommunicationClass>
+    <CommunicationClass name="animationStarter.Position" x="418" y="149"/>
+    <CommunicationClass name="animationStarter.AnimationStarter" x="73" y="29">
+        <Association
+            destinationClassName="animationStarter.DisplayAppli"
+            endpointName="uneDisplayAppli" kind="Simple"/>
+        <Communication destinationClassName="animationStarter.DisplayAppli"/>
+    </CommunicationClass>
+    <CommunicationClass name="animationStarter.ActionStep" x="93" y="148">
+        <Association
+            destinationClassName="animationStarter.AnimationStarter"
+            endpointName="frame" kind="Simple"/>
+        <Communication destinationClassName="animationStarter.AnimationStarter"/>
+    </CommunicationClass>
+</ClassDiagram>

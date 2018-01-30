@@ -1,0 +1,4080 @@
+Temps: 0.0
+Laser1: 1.148
+Laser2: 0.236
+
+Temps: 0.01665
+Laser1: 1.084
+Laser2: 0.228
+
+Temps: 0.0333
+Laser1: 1.142
+Laser2: 0.212
+
+Temps: 0.04995000000000001
+Laser1: 1.128
+Laser2: 0.22
+
+Temps: 0.0666
+Laser1: 1.118
+Laser2: 0.248
+
+Temps: 0.08325
+Laser1: 1.106
+Laser2: 0.24
+
+Temps: 0.09990000000000002
+Laser1: 1.162
+Laser2: 0.248
+
+Temps: 0.11655000000000001
+Laser1: 1.186
+Laser2: 0.28
+
+Temps: 0.1332
+Laser1: 1.182
+Laser2: 0.248
+
+Temps: 0.14985
+Laser1: 1.126
+Laser2: 0.248
+
+Temps: 0.1665
+Laser1: 1.126
+Laser2: 0.26
+
+Temps: 0.18315
+Laser1: 1.186
+Laser2: 0.276
+
+Temps: 0.19980000000000003
+Laser1: 1.198
+Laser2: 0.264
+
+Temps: 0.21645000000000003
+Laser1: 1.14
+Laser2: 0.248
+
+Temps: 0.23310000000000003
+Laser1: 1.164
+Laser2: 0.24
+
+Temps: 0.24975000000000003
+Laser1: 1.15
+Laser2: 0.252
+
+Temps: 0.2664
+Laser1: 1.188
+Laser2: 0.248
+
+Temps: 0.28305
+Laser1: 1.202
+Laser2: 0.264
+
+Temps: 0.2997
+Laser1: 1.192
+Laser2: 0.272
+
+Temps: 0.31635
+Laser1: 1.15
+Laser2: 0.268
+
+Temps: 0.333
+Laser1: 1.208
+Laser2: 0.292
+
+Temps: 0.34965
+Laser1: 1.252
+Laser2: 0.284
+
+Temps: 0.3663
+Laser1: 1.204
+Laser2: 0.252
+
+Temps: 0.38295
+Laser1: 1.186
+Laser2: 0.236
+
+Temps: 0.39960000000000007
+Laser1: 1.166
+Laser2: 0.28
+
+Temps: 0.41625000000000006
+Laser1: 1.18
+Laser2: 0.256
+
+Temps: 0.43290000000000006
+Laser1: 1.198
+Laser2: 0.268
+
+Temps: 0.44955000000000006
+Laser1: 1.184
+Laser2: 0.276
+
+Temps: 0.46620000000000006
+Laser1: 1.126
+Laser2: 0.304
+
+Temps: 0.48285000000000006
+Laser1: 1.164
+Laser2: 0.308
+
+Temps: 0.49950000000000006
+Laser1: 1.14
+Laser2: 0.244
+
+Temps: 0.51615
+Laser1: 1.218
+Laser2: 0.24
+
+Temps: 0.5328
+Laser1: 1.206
+Laser2: 0.26
+
+Temps: 0.5494500000000001
+Laser1: 1.246
+Laser2: 0.268
+
+Temps: 0.5661
+Laser1: 1.268
+Laser2: 0.308
+
+Temps: 0.5827500000000001
+Laser1: 1.236
+Laser2: 0.308
+
+Temps: 0.5994
+Laser1: 1.254
+Laser2: 0.288
+
+Temps: 0.6160500000000001
+Laser1: 1.282
+Laser2: 0.272
+
+Temps: 0.6327
+Laser1: 1.292
+Laser2: 0.24
+
+Temps: 0.6493500000000001
+Laser1: 1.214
+Laser2: 0.236
+
+Temps: 0.666
+Laser1: 1.216
+Laser2: 0.28
+
+Temps: 0.6826500000000001
+Laser1: 1.216
+Laser2: 0.284
+
+Temps: 0.6993
+Laser1: 1.254
+Laser2: 0.28
+
+Temps: 0.7159500000000001
+Laser1: 1.226
+Laser2: 0.284
+
+Temps: 0.7326
+Laser1: 1.24
+Laser2: 0.3
+
+Temps: 0.7492500000000001
+Laser1: 1.254
+Laser2: 0.272
+
+Temps: 0.7659
+Laser1: 1.238
+Laser2: 0.26
+
+Temps: 0.7825500000000001
+Laser1: 1.222
+Laser2: 0.224
+
+Temps: 0.7992000000000001
+Laser1: 1.218
+Laser2: 0.26
+
+Temps: 0.8158500000000001
+Laser1: 1.252
+Laser2: 0.272
+
+Temps: 0.8325000000000001
+Laser1: 1.29
+Laser2: 0.284
+
+Temps: 0.8491500000000001
+Laser1: 1.286
+Laser2: 0.28
+
+Temps: 0.8658000000000001
+Laser1: 1.202
+Laser2: 0.316
+
+Temps: 0.8824500000000001
+Laser1: 1.21
+Laser2: 0.272
+
+Temps: 0.8991000000000001
+Laser1: 1.218
+Laser2: 0.232
+
+Temps: 0.9157500000000001
+Laser1: 1.254
+Laser2: 0.256
+
+Temps: 0.9324000000000001
+Laser1: 1.274
+Laser2: 0.304
+
+Temps: 0.9490500000000001
+Laser1: 1.26
+Laser2: 0.308
+
+Temps: 0.9657000000000001
+Laser1: 1.188
+Laser2: 0.292
+
+Temps: 0.9823500000000001
+Laser1: 1.192
+Laser2: 0.304
+
+Temps: 0.9990000000000001
+Laser1: 1.172
+Laser2: 0.28
+
+Temps: 1.0156500000000002
+Laser1: 1.15
+Laser2: 0.28
+
+Temps: 1.0323
+Laser1: 1.14
+Laser2: 0.276
+
+Temps: 1.04895
+Laser1: 1.184
+Laser2: 0.308
+
+Temps: 1.0656
+Laser1: 1.182
+Laser2: 0.324
+
+Temps: 1.0822500000000002
+Laser1: 1.186
+Laser2: 0.308
+
+Temps: 1.0989000000000002
+Laser1: 1.208
+Laser2: 0.264
+
+Temps: 1.11555
+Laser1: 1.216
+Laser2: 0.276
+
+Temps: 1.1322
+Laser1: 1.228
+Laser2: 0.28
+
+Temps: 1.1488500000000001
+Laser1: 1.164
+Laser2: 0.264
+
+Temps: 1.1655000000000002
+Laser1: 1.21
+Laser2: 0.268
+
+Temps: 1.18215
+Laser1: 1.238
+Laser2: 0.284
+
+Temps: 1.1988
+Laser1: 1.254
+Laser2: 0.328
+
+Temps: 1.2154500000000001
+Laser1: 1.248
+Laser2: 0.312
+
+Temps: 1.2321000000000002
+Laser1: 1.174
+Laser2: 0.268
+
+Temps: 1.24875
+Laser1: 1.194
+Laser2: 0.216
+
+Temps: 1.2654
+Laser1: 1.214
+Laser2: 0.272
+
+Temps: 1.2820500000000001
+Laser1: 1.194
+Laser2: 0.284
+
+Temps: 1.2987000000000002
+Laser1: 1.14
+Laser2: 0.284
+
+Temps: 1.31535
+Laser1: 1.23
+Laser2: 0.284
+
+Temps: 1.332
+Laser1: 1.286
+Laser2: 0.316
+
+Temps: 1.3486500000000001
+Laser1: 1.304
+Laser2: 0.32
+
+Temps: 1.3653000000000002
+Laser1: 1.272
+Laser2: 0.272
+
+Temps: 1.3819500000000002
+Laser1: 1.254
+Laser2: 0.248
+
+Temps: 1.3986
+Laser1: 1.27
+Laser2: 0.252
+
+Temps: 1.4152500000000001
+Laser1: 1.284
+Laser2: 0.284
+
+Temps: 1.4319000000000002
+Laser1: 1.196
+Laser2: 0.264
+
+Temps: 1.4485500000000002
+Laser1: 1.222
+Laser2: 0.248
+
+Temps: 1.4652
+Laser1: 1.232
+Laser2: 0.252
+
+Temps: 1.4818500000000001
+Laser1: 1.264
+Laser2: 0.276
+
+Temps: 1.4985000000000002
+Laser1: 1.26
+Laser2: 0.268
+
+Temps: 1.5151500000000002
+Laser1: 1.212
+Laser2: 0.272
+
+Temps: 1.5318
+Laser1: 1.238
+Laser2: 0.288
+
+Temps: 1.54845
+Laser1: 1.248
+Laser2: 0.292
+
+Temps: 1.5651000000000002
+Laser1: 1.26
+Laser2: 0.244
+
+Temps: 1.5817500000000002
+Laser1: 1.272
+Laser2: 0.232
+
+Temps: 1.5984000000000003
+Laser1: 1.256
+Laser2: 0.252
+
+Temps: 1.61505
+Laser1: 1.244
+Laser2: 0.26
+
+Temps: 1.6317000000000002
+Laser1: 1.192
+Laser2: 0.252
+
+Temps: 1.6483500000000002
+Laser1: 1.202
+Laser2: 0.272
+
+Temps: 1.6650000000000003
+Laser1: 1.232
+Laser2: 0.312
+
+Temps: 1.68165
+Laser1: 1.232
+Laser2: 0.308
+
+Temps: 1.6983000000000001
+Laser1: 1.23
+Laser2: 0.292
+
+Temps: 1.7149500000000002
+Laser1: 1.224
+Laser2: 0.264
+
+Temps: 1.7316000000000003
+Laser1: 1.222
+Laser2: 0.248
+
+Temps: 1.74825
+Laser1: 1.244
+Laser2: 0.252
+
+Temps: 1.7649000000000001
+Laser1: 1.234
+Laser2: 0.232
+
+Temps: 1.7815500000000002
+Laser1: 1.248
+Laser2: 0.228
+
+Temps: 1.7982000000000002
+Laser1: 1.214
+Laser2: 0.284
+
+Temps: 1.81485
+Laser1: 1.206
+Laser2: 0.324
+
+Temps: 1.8315000000000001
+Laser1: 1.232
+Laser2: 0.304
+
+Temps: 1.8481500000000002
+Laser1: 1.208
+Laser2: 0.276
+
+Temps: 1.8648000000000002
+Laser1: 1.198
+Laser2: 0.232
+
+Temps: 1.8814500000000003
+Laser1: 1.198
+Laser2: 0.212
+
+Temps: 1.8981000000000001
+Laser1: 1.204
+Laser2: 0.216
+
+Temps: 1.9147500000000002
+Laser1: 1.202
+Laser2: 0.252
+
+Temps: 1.9314000000000002
+Laser1: 1.204
+Laser2: 0.276
+
+Temps: 1.9480500000000003
+Laser1: 1.232
+Laser2: 0.268
+
+Temps: 1.9647000000000001
+Laser1: 1.256
+Laser2: 0.224
+
+Temps: 1.9813500000000002
+Laser1: 1.2
+Laser2: 0.236
+
+Temps: 1.9980000000000002
+Laser1: 1.206
+Laser2: 0.272
+
+Temps: 2.01465
+Laser1: 1.166
+Laser2: 0.3
+
+Temps: 2.0313000000000003
+Laser1: 1.23
+Laser2: 0.284
+
+Temps: 2.04795
+Laser1: 1.188
+Laser2: 0.28
+
+Temps: 2.0646
+Laser1: 1.218
+Laser2: 0.272
+
+Temps: 2.0812500000000003
+Laser1: 1.202
+Laser2: 0.24
+
+Temps: 2.0979
+Laser1: 1.234
+Laser2: 0.22
+
+Temps: 2.1145500000000004
+Laser1: 1.222
+Laser2: 0.232
+
+Temps: 2.1312
+Laser1: 1.19
+Laser2: 0.232
+
+Temps: 2.14785
+Laser1: 1.2
+Laser2: 0.268
+
+Temps: 2.1645000000000003
+Laser1: 1.158
+Laser2: 0.284
+
+Temps: 2.18115
+Laser1: 1.212
+Laser2: 0.288
+
+Temps: 2.1978000000000004
+Laser1: 1.216
+Laser2: 0.296
+
+Temps: 2.2144500000000003
+Laser1: 1.228
+Laser2: 0.284
+
+Temps: 2.2311
+Laser1: 1.184
+Laser2: 0.212
+
+Temps: 2.2477500000000004
+Laser1: 1.128
+Laser2: 0.2
+
+Temps: 2.2644
+Laser1: 1.092
+Laser2: 0.212
+
+Temps: 2.28105
+Laser1: 1.116
+Laser2: 0.252
+
+Temps: 2.2977000000000003
+Laser1: 1.194
+Laser2: 0.256
+
+Temps: 2.31435
+Laser1: 1.232
+Laser2: 0.272
+
+Temps: 2.3310000000000004
+Laser1: 1.212
+Laser2: 0.26
+
+Temps: 2.3476500000000002
+Laser1: 1.148
+Laser2: 0.252
+
+Temps: 2.3643
+Laser1: 1.174
+Laser2: 0.192
+
+Temps: 2.3809500000000003
+Laser1: 1.152
+Laser2: 0.22
+
+Temps: 2.3976
+Laser1: 1.214
+Laser2: 0.268
+
+Temps: 2.4142500000000005
+Laser1: 1.154
+Laser2: 0.28
+
+Temps: 2.4309000000000003
+Laser1: 1.186
+Laser2: 0.256
+
+Temps: 2.44755
+Laser1: 1.19
+Laser2: 0.248
+
+Temps: 2.4642000000000004
+Laser1: 1.226
+Laser2: 0.22
+
+Temps: 2.48085
+Laser1: 1.224
+Laser2: 0.212
+
+Temps: 2.4975
+Laser1: 1.186
+Laser2: 0.208
+
+Temps: 2.5141500000000003
+Laser1: 1.152
+Laser2: 0.224
+
+Temps: 2.5308
+Laser1: 1.098
+Laser2: 0.232
+
+Temps: 2.5474500000000004
+Laser1: 1.094
+Laser2: 0.272
+
+Temps: 2.5641000000000003
+Laser1: 1.16
+Laser2: 0.268
+
+Temps: 2.58075
+Laser1: 1.21
+Laser2: 0.248
+
+Temps: 2.5974000000000004
+Laser1: 1.16
+Laser2: 0.232
+
+Temps: 2.61405
+Laser1: 1.082
+Laser2: 0.256
+
+Temps: 2.6307
+Laser1: 1.12
+Laser2: 0.248
+
+Temps: 2.6473500000000003
+Laser1: 1.128
+Laser2: 0.268
+
+Temps: 2.664
+Laser1: 1.148
+Laser2: 0.256
+
+Temps: 2.6806500000000004
+Laser1: 1.112
+Laser2: 0.276
+
+Temps: 2.6973000000000003
+Laser1: 1.13
+Laser2: 0.268
+
+Temps: 2.71395
+Laser1: 1.072
+Laser2: 0.244
+
+Temps: 2.7306000000000004
+Laser1: 1.082
+Laser2: 0.216
+
+Temps: 2.74725
+Laser1: 1.126
+Laser2: 0.24
+
+Temps: 2.7639000000000005
+Laser1: 1.176
+Laser2: 0.264
+
+Temps: 2.7805500000000003
+Laser1: 1.148
+Laser2: 0.264
+
+Temps: 2.7972
+Laser1: 1.168
+Laser2: 0.248
+
+Temps: 2.8138500000000004
+Laser1: 1.146
+Laser2: 0.256
+
+Temps: 2.8305000000000002
+Laser1: 1.176
+Laser2: 0.204
+
+Temps: 2.84715
+Laser1: 1.146
+Laser2: 0.212
+
+Temps: 2.8638000000000003
+Laser1: 1.17
+Laser2: 0.22
+
+Temps: 2.88045
+Laser1: 1.196
+Laser2: 0.26
+
+Temps: 2.8971000000000005
+Laser1: 1.19
+Laser2: 0.244
+
+Temps: 2.9137500000000003
+Laser1: 1.118
+Laser2: 0.24
+
+Temps: 2.9304
+Laser1: 1.124
+Laser2: 0.252
+
+Temps: 2.9470500000000004
+Laser1: 1.178
+Laser2: 0.264
+
+Temps: 2.9637000000000002
+Laser1: 1.232
+Laser2: 0.256
+
+Temps: 2.9803500000000005
+Laser1: 1.166
+Laser2: 0.248
+
+Temps: 2.9970000000000003
+Laser1: 1.198
+Laser2: 0.248
+
+Temps: 3.01365
+Laser1: 1.2
+Laser2: 0.284
+
+Temps: 3.0303000000000004
+Laser1: 1.214
+Laser2: 0.288
+
+Temps: 3.0469500000000003
+Laser1: 1.19
+Laser2: 0.236
+
+Temps: 3.0636
+Laser1: 1.144
+Laser2: 0.244
+
+Temps: 3.0802500000000004
+Laser1: 1.16
+Laser2: 0.276
+
+Temps: 3.0969
+Laser1: 1.188
+Laser2: 0.292
+
+Temps: 3.1135500000000005
+Laser1: 1.17
+Laser2: 0.284
+
+Temps: 3.1302000000000003
+Laser1: 1.156
+Laser2: 0.292
+
+Temps: 3.14685
+Laser1: 1.172
+Laser2: 0.312
+
+Temps: 3.1635000000000004
+Laser1: 1.166
+Laser2: 0.312
+
+Temps: 3.1801500000000003
+Laser1: 1.178
+Laser2: 0.284
+
+Temps: 3.1968000000000005
+Laser1: 1.144
+Laser2: 0.256
+
+Temps: 3.2134500000000004
+Laser1: 1.124
+Laser2: 0.252
+
+Temps: 3.2301
+Laser1: 1.162
+Laser2: 0.24
+
+Temps: 3.2467500000000005
+Laser1: 1.178
+Laser2: 0.268
+
+Temps: 3.2634000000000003
+Laser1: 1.196
+Laser2: 0.24
+
+Temps: 3.28005
+Laser1: 1.236
+Laser2: 0.272
+
+Temps: 3.2967000000000004
+Laser1: 1.242
+Laser2: 0.292
+
+Temps: 3.3133500000000002
+Laser1: 1.172
+Laser2: 0.284
+
+Temps: 3.3300000000000005
+Laser1: 1.182
+Laser2: 0.248
+
+Temps: 3.3466500000000003
+Laser1: 1.16
+Laser2: 0.252
+
+Temps: 3.3633
+Laser1: 1.208
+Laser2: 0.248
+
+Temps: 3.3799500000000005
+Laser1: 1.152
+Laser2: 0.256
+
+Temps: 3.3966000000000003
+Laser1: 1.21
+Laser2: 0.24
+
+Temps: 3.41325
+Laser1: 1.158
+Laser2: 0.284
+
+Temps: 3.4299000000000004
+Laser1: 1.242
+Laser2: 0.308
+
+Temps: 3.4465500000000002
+Laser1: 1.254
+Laser2: 0.276
+
+Temps: 3.4632000000000005
+Laser1: 1.286
+Laser2: 0.308
+
+Temps: 3.4798500000000003
+Laser1: 1.312
+Laser2: 0.288
+
+Temps: 3.4965
+Laser1: 1.3
+Laser2: 0.268
+
+Temps: 3.5131500000000004
+Laser1: 1.284
+Laser2: 0.26
+
+Temps: 3.5298000000000003
+Laser1: 1.274
+Laser2: 0.264
+
+Temps: 3.5464500000000005
+Laser1: 1.238
+Laser2: 0.26
+
+Temps: 3.5631000000000004
+Laser1: 1.202
+Laser2: 0.24
+
+Temps: 3.57975
+Laser1: 1.21
+Laser2: 0.228
+
+Temps: 3.5964000000000005
+Laser1: 1.242
+Laser2: 0.232
+
+Temps: 3.6130500000000003
+Laser1: 1.236
+Laser2: 0.292
+
+Temps: 3.6297
+Laser1: 1.18
+Laser2: 0.32
+
+Temps: 3.6463500000000004
+Laser1: 1.222
+Laser2: 0.34
+
+Temps: 3.6630000000000003
+Laser1: 1.228
+Laser2: 0.3
+
+Temps: 3.6796500000000005
+Laser1: 1.226
+Laser2: 0.3
+
+Temps: 3.6963000000000004
+Laser1: 1.214
+Laser2: 0.24
+
+Temps: 3.71295
+Laser1: 1.156
+Laser2: 0.22
+
+Temps: 3.7296000000000005
+Laser1: 1.182
+Laser2: 0.212
+
+Temps: 3.7462500000000003
+Laser1: 1.15
+Laser2: 0.248
+
+Temps: 3.7629000000000006
+Laser1: 1.182
+Laser2: 0.292
+
+Temps: 3.7795500000000004
+Laser1: 1.156
+Laser2: 0.34
+
+Temps: 3.7962000000000002
+Laser1: 1.192
+Laser2: 0.304
+
+Temps: 3.8128500000000005
+Laser1: 1.204
+Laser2: 0.308
+
+Temps: 3.8295000000000003
+Laser1: 1.184
+Laser2: 0.3
+
+Temps: 3.84615
+Laser1: 1.16
+Laser2: 0.228
+
+Temps: 3.8628000000000005
+Laser1: 1.168
+Laser2: 0.216
+
+Temps: 3.8794500000000003
+Laser1: 1.174
+Laser2: 0.244
+
+Temps: 3.8961000000000006
+Laser1: 1.206
+Laser2: 0.292
+
+Temps: 3.9127500000000004
+Laser1: 1.16
+Laser2: 0.272
+
+Temps: 3.9294000000000002
+Laser1: 1.204
+Laser2: 0.276
+
+Temps: 3.9460500000000005
+Laser1: 1.242
+Laser2: 0.284
+
+Temps: 3.9627000000000003
+Laser1: 1.204
+Laser2: 0.316
+
+Temps: 3.97935
+Laser1: 1.21
+Laser2: 0.276
+
+Temps: 3.9960000000000004
+Laser1: 1.16
+Laser2: 0.252
+
+Temps: 4.012650000000001
+Laser1: 1.14
+Laser2: 0.248
+
+Temps: 4.0293
+Laser1: 1.134
+Laser2: 0.244
+
+Temps: 4.04595
+Laser1: 1.228
+Laser2: 0.248
+
+Temps: 4.062600000000001
+Laser1: 1.222
+Laser2: 0.232
+
+Temps: 4.07925
+Laser1: 1.24
+Laser2: 0.26
+
+Temps: 4.0959
+Laser1: 1.26
+Laser2: 0.272
+
+Temps: 4.112550000000001
+Laser1: 1.224
+Laser2: 0.256
+
+Temps: 4.1292
+Laser1: 1.236
+Laser2: 0.256
+
+Temps: 4.14585
+Laser1: 1.23
+Laser2: 0.296
+
+Temps: 4.1625000000000005
+Laser1: 1.222
+Laser2: 0.316
+
+Temps: 4.179150000000001
+Laser1: 1.206
+Laser2: 0.252
+
+Temps: 4.1958
+Laser1: 1.244
+Laser2: 0.192
+
+Temps: 4.2124500000000005
+Laser1: 1.248
+Laser2: 0.188
+
+Temps: 4.229100000000001
+Laser1: 1.272
+Laser2: 0.232
+
+Temps: 4.24575
+Laser1: 1.212
+Laser2: 0.248
+
+Temps: 4.2624
+Laser1: 1.2
+Laser2: 0.26
+
+Temps: 4.279050000000001
+Laser1: 1.236
+Laser2: 0.276
+
+Temps: 4.2957
+Laser1: 1.26
+Laser2: 0.316
+
+Temps: 4.31235
+Laser1: 1.258
+Laser2: 0.264
+
+Temps: 4.329000000000001
+Laser1: 1.288
+Laser2: 0.256
+
+Temps: 4.34565
+Laser1: 1.284
+Laser2: 0.228
+
+Temps: 4.3623
+Laser1: 1.196
+Laser2: 0.252
+
+Temps: 4.378950000000001
+Laser1: 1.232
+Laser2: 0.244
+
+Temps: 4.395600000000001
+Laser1: 1.154
+Laser2: 0.228
+
+Temps: 4.41225
+Laser1: 1.206
+Laser2: 0.236
+
+Temps: 4.4289000000000005
+Laser1: 1.228
+Laser2: 0.216
+
+Temps: 4.445550000000001
+Laser1: 1.252
+Laser2: 0.216
+
+Temps: 4.4622
+Laser1: 1.256
+Laser2: 0.24
+
+Temps: 4.47885
+Laser1: 1.254
+Laser2: 0.292
+
+Temps: 4.495500000000001
+Laser1: 1.244
+Laser2: 0.308
+
+Temps: 4.51215
+Laser1: 1.25
+Laser2: 0.3
+
+Temps: 4.5288
+Laser1: 1.226
+Laser2: 0.256
+
+Temps: 4.545450000000001
+Laser1: 1.236
+Laser2: 0.24
+
+Temps: 4.5621
+Laser1: 1.196
+Laser2: 0.208
+
+Temps: 4.57875
+Laser1: 1.18
+Laser2: 0.172
+
+Temps: 4.595400000000001
+Laser1: 1.218
+Laser2: 0.192
+
+Temps: 4.612050000000001
+Laser1: 1.23
+Laser2: 0.272
+
+Temps: 4.6287
+Laser1: 1.222
+Laser2: 0.32
+
+Temps: 4.6453500000000005
+Laser1: 1.226
+Laser2: 0.324
+
+Temps: 4.662000000000001
+Laser1: 1.228
+Laser2: 0.292
+
+Temps: 4.67865
+Laser1: 1.268
+Laser2: 0.268
+
+Temps: 4.6953000000000005
+Laser1: 1.21
+Laser2: 0.244
+
+Temps: 4.711950000000001
+Laser1: 1.214
+Laser2: 0.18
+
+Temps: 4.7286
+Laser1: 1.148
+Laser2: 0.184
+
+Temps: 4.74525
+Laser1: 1.156
+Laser2: 0.196
+
+Temps: 4.761900000000001
+Laser1: 1.14
+Laser2: 0.252
+
+Temps: 4.77855
+Laser1: 1.152
+Laser2: 0.24
+
+Temps: 4.7952
+Laser1: 1.208
+Laser2: 0.26
+
+Temps: 4.811850000000001
+Laser1: 1.222
+Laser2: 0.264
+
+Temps: 4.828500000000001
+Laser1: 1.23
+Laser2: 0.28
+
+Temps: 4.84515
+Laser1: 1.262
+Laser2: 0.288
+
+Temps: 4.861800000000001
+Laser1: 1.206
+Laser2: 0.252
+
+Temps: 4.878450000000001
+Laser1: 1.22
+Laser2: 0.236
+
+Temps: 4.8951
+Laser1: 1.182
+Laser2: 0.208
+
+Temps: 4.9117500000000005
+Laser1: 1.222
+Laser2: 0.196
+
+Temps: 4.928400000000001
+Laser1: 1.172
+Laser2: 0.188
+
+Temps: 4.94505
+Laser1: 1.21
+Laser2: 0.216
+
+Temps: 4.9617
+Laser1: 1.214
+Laser2: 0.256
+
+Temps: 4.978350000000001
+Laser1: 1.234
+Laser2: 0.308
+
+Temps: 4.995
+Laser1: 1.248
+Laser2: 0.276
+
+Temps: 5.01165
+Laser1: 1.21
+Laser2: 0.26
+
+Temps: 5.028300000000001
+Laser1: 1.156
+Laser2: 0.256
+
+Temps: 5.04495
+Laser1: 1.13
+Laser2: 0.216
+
+Temps: 5.0616
+Laser1: 1.178
+Laser2: 0.16
+
+Temps: 5.078250000000001
+Laser1: 1.182
+Laser2: 0.172
+
+Temps: 5.094900000000001
+Laser1: 1.208
+Laser2: 0.248
+
+Temps: 5.11155
+Laser1: 1.258
+Laser2: 0.26
+
+Temps: 5.1282000000000005
+Laser1: 1.19
+Laser2: 0.264
+
+Temps: 5.144850000000001
+Laser1: 1.162
+Laser2: 0.276
+
+Temps: 5.1615
+Laser1: 1.186
+Laser2: 0.284
+
+Temps: 5.1781500000000005
+Laser1: 1.16
+Laser2: 0.26
+
+Temps: 5.194800000000001
+Laser1: 1.182
+Laser2: 0.232
+
+Temps: 5.21145
+Laser1: 1.196
+Laser2: 0.204
+
+Temps: 5.2281
+Laser1: 1.216
+Laser2: 0.232
+
+Temps: 5.244750000000001
+Laser1: 1.248
+Laser2: 0.244
+
+Temps: 5.2614
+Laser1: 1.23
+Laser2: 0.232
+
+Temps: 5.27805
+Laser1: 1.192
+Laser2: 0.232
+
+Temps: 5.294700000000001
+Laser1: 1.144
+Laser2: 0.256
+
+Temps: 5.311350000000001
+Laser1: 1.184
+Laser2: 0.28
+
+Temps: 5.328
+Laser1: 1.182
+Laser2: 0.256
+
+Temps: 5.344650000000001
+Laser1: 1.164
+Laser2: 0.272
+
+Temps: 5.361300000000001
+Laser1: 1.116
+Laser2: 0.256
+
+Temps: 5.37795
+Laser1: 1.064
+Laser2: 0.252
+
+Temps: 5.3946000000000005
+Laser1: 1.058
+Laser2: 0.212
+
+Temps: 5.411250000000001
+Laser1: 1.062
+Laser2: 0.212
+
+Temps: 5.4279
+Laser1: 1.094
+Laser2: 0.228
+
+Temps: 5.4445500000000004
+Laser1: 1.11
+Laser2: 0.252
+
+Temps: 5.461200000000001
+Laser1: 1.214
+Laser2: 0.276
+
+Temps: 5.47785
+Laser1: 1.248
+Laser2: 0.308
+
+Temps: 5.4945
+Laser1: 1.224
+Laser2: 0.312
+
+Temps: 5.511150000000001
+Laser1: 1.128
+Laser2: 0.312
+
+Temps: 5.527800000000001
+Laser1: 1.082
+Laser2: 0.252
+
+Temps: 5.54445
+Laser1: 1.088
+Laser2: 0.204
+
+Temps: 5.561100000000001
+Laser1: 1.176
+Laser2: 0.208
+
+Temps: 5.577750000000001
+Laser1: 1.154
+Laser2: 0.252
+
+Temps: 5.5944
+Laser1: 1.188
+Laser2: 0.26
+
+Temps: 5.6110500000000005
+Laser1: 1.184
+Laser2: 0.252
+
+Temps: 5.627700000000001
+Laser1: 1.244
+Laser2: 0.292
+
+Temps: 5.64435
+Laser1: 1.256
+Laser2: 0.304
+
+Temps: 5.6610000000000005
+Laser1: 1.24
+Laser2: 0.276
+
+Temps: 5.677650000000001
+Laser1: 1.226
+Laser2: 0.252
+
+Temps: 5.6943
+Laser1: 1.146
+Laser2: 0.232
+
+Temps: 5.71095
+Laser1: 1.162
+Laser2: 0.252
+
+Temps: 5.727600000000001
+Laser1: 1.192
+Laser2: 0.236
+
+Temps: 5.744250000000001
+Laser1: 1.174
+Laser2: 0.232
+
+Temps: 5.7609
+Laser1: 1.132
+Laser2: 0.228
+
+Temps: 5.777550000000001
+Laser1: 1.194
+Laser2: 0.276
+
+Temps: 5.794200000000001
+Laser1: 1.204
+Laser2: 0.264
+
+Temps: 5.81085
+Laser1: 1.188
+Laser2: 0.272
+
+Temps: 5.827500000000001
+Laser1: 1.176
+Laser2: 0.292
+
+Temps: 5.844150000000001
+Laser1: 1.198
+Laser2: 0.292
+
+Temps: 5.8608
+Laser1: 1.172
+Laser2: 0.256
+
+Temps: 5.8774500000000005
+Laser1: 1.12
+Laser2: 0.256
+
+Temps: 5.894100000000001
+Laser1: 1.152
+Laser2: 0.22
+
+Temps: 5.91075
+Laser1: 1.092
+Laser2: 0.244
+
+Temps: 5.9274000000000004
+Laser1: 1.096
+Laser2: 0.208
+
+Temps: 5.944050000000001
+Laser1: 1.096
+Laser2: 0.232
+
+Temps: 5.960700000000001
+Laser1: 1.198
+Laser2: 0.248
+
+Temps: 5.97735
+Laser1: 1.188
+Laser2: 0.288
+
+Temps: 5.994000000000001
+Laser1: 1.2
+Laser2: 0.252
+
+Temps: 6.010650000000001
+Laser1: 1.194
+Laser2: 0.252
+
+Temps: 6.0273
+Laser1: 1.204
+Laser2: 0.276
+
+Temps: 6.043950000000001
+Laser1: 1.146
+Laser2: 0.252
+
+Temps: 6.060600000000001
+Laser1: 1.136
+Laser2: 0.22
+
+Temps: 6.07725
+Laser1: 1.156
+Laser2: 0.212
+
+Temps: 6.0939000000000005
+Laser1: 1.188
+Laser2: 0.252
+
+Temps: 6.110550000000001
+Laser1: 1.2
+Laser2: 0.292
+
+Temps: 6.1272
+Laser1: 1.174
+Laser2: 0.284
+
+Temps: 6.1438500000000005
+Laser1: 1.154
+Laser2: 0.272
+
+Temps: 6.160500000000001
+Laser1: 1.204
+Laser2: 0.284
+
+Temps: 6.177150000000001
+Laser1: 1.216
+Laser2: 0.268
+
+Temps: 6.1938
+Laser1: 1.234
+Laser2: 0.244
+
+Temps: 6.210450000000001
+Laser1: 1.236
+Laser2: 0.244
+
+Temps: 6.227100000000001
+Laser1: 1.218
+Laser2: 0.264
+
+Temps: 6.24375
+Laser1: 1.198
+Laser2: 0.292
+
+Temps: 6.260400000000001
+Laser1: 1.226
+Laser2: 0.28
+
+Temps: 6.277050000000001
+Laser1: 1.192
+Laser2: 0.28
+
+Temps: 6.2937
+Laser1: 1.182
+Laser2: 0.264
+
+Temps: 6.310350000000001
+Laser1: 1.132
+Laser2: 0.296
+
+Temps: 6.327000000000001
+Laser1: 1.134
+Laser2: 0.272
+
+Temps: 6.34365
+Laser1: 1.142
+Laser2: 0.284
+
+Temps: 6.3603000000000005
+Laser1: 1.22
+Laser2: 0.236
+
+Temps: 6.376950000000001
+Laser1: 1.144
+Laser2: 0.228
+
+Temps: 6.393600000000001
+Laser1: 1.176
+Laser2: 0.22
+
+Temps: 6.4102500000000004
+Laser1: 1.188
+Laser2: 0.224
+
+Temps: 6.426900000000001
+Laser1: 1.226
+Laser2: 0.244
+
+Temps: 6.443550000000001
+Laser1: 1.23
+Laser2: 0.328
+
+Temps: 6.4602
+Laser1: 1.214
+Laser2: 0.336
+
+Temps: 6.476850000000001
+Laser1: 1.158
+Laser2: 0.272
+
+Temps: 6.493500000000001
+Laser1: 1.196
+Laser2: 0.236
+
+Temps: 6.51015
+Laser1: 1.154
+Laser2: 0.228
+
+Temps: 6.526800000000001
+Laser1: 1.154
+Laser2: 0.204
+
+Temps: 6.543450000000001
+Laser1: 1.122
+Laser2: 0.168
+
+Temps: 6.5601
+Laser1: 1.17
+Laser2: 0.224
+
+Temps: 6.5767500000000005
+Laser1: 1.234
+Laser2: 0.276
+
+Temps: 6.593400000000001
+Laser1: 1.258
+Laser2: 0.3
+
+Temps: 6.61005
+Laser1: 1.244
+Laser2: 0.284
+
+Temps: 6.6267000000000005
+Laser1: 1.24
+Laser2: 0.276
+
+Temps: 6.643350000000001
+Laser1: 1.214
+Laser2: 0.308
+
+Temps: 6.660000000000001
+Laser1: 1.212
+Laser2: 0.272
+
+Temps: 6.67665
+Laser1: 1.218
+Laser2: 0.252
+
+Temps: 6.693300000000001
+Laser1: 1.212
+Laser2: 0.236
+
+Temps: 6.709950000000001
+Laser1: 1.18
+Laser2: 0.272
+
+Temps: 6.7266
+Laser1: 1.156
+Laser2: 0.244
+
+Temps: 6.743250000000001
+Laser1: 1.17
+Laser2: 0.248
+
+Temps: 6.759900000000001
+Laser1: 1.194
+Laser2: 0.252
+
+Temps: 6.77655
+Laser1: 1.22
+Laser2: 0.292
+
+Temps: 6.793200000000001
+Laser1: 1.234
+Laser2: 0.272
+
+Temps: 6.809850000000001
+Laser1: 1.216
+Laser2: 0.284
+
+Temps: 6.8265
+Laser1: 1.21
+Laser2: 0.272
+
+Temps: 6.8431500000000005
+Laser1: 1.156
+Laser2: 0.284
+
+Temps: 6.859800000000001
+Laser1: 1.158
+Laser2: 0.26
+
+Temps: 6.876450000000001
+Laser1: 1.11
+Laser2: 0.224
+
+Temps: 6.8931000000000004
+Laser1: 1.168
+Laser2: 0.216
+
+Temps: 6.909750000000001
+Laser1: 1.16
+Laser2: 0.228
+
+Temps: 6.926400000000001
+Laser1: 1.182
+Laser2: 0.284
+
+Temps: 6.94305
+Laser1: 1.188
+Laser2: 0.284
+
+Temps: 6.959700000000001
+Laser1: 1.21
+Laser2: 0.284
+
+Temps: 6.976350000000001
+Laser1: 1.222
+Laser2: 0.276
+
+Temps: 6.993
+Laser1: 1.216
+Laser2: 0.26
+
+Temps: 7.009650000000001
+Laser1: 1.212
+Laser2: 0.22
+
+Temps: 7.026300000000001
+Laser1: 1.186
+Laser2: 0.212
+
+Temps: 7.04295
+Laser1: 1.2
+Laser2: 0.24
+
+Temps: 7.0596000000000005
+Laser1: 1.194
+Laser2: 0.268
+
+Temps: 7.076250000000001
+Laser1: 1.186
+Laser2: 0.268
+
+Temps: 7.092900000000001
+Laser1: 1.18
+Laser2: 0.276
+
+Temps: 7.1095500000000005
+Laser1: 1.178
+Laser2: 0.292
+
+Temps: 7.126200000000001
+Laser1: 1.178
+Laser2: 0.252
+
+Temps: 7.142850000000001
+Laser1: 1.224
+Laser2: 0.244
+
+Temps: 7.1595
+Laser1: 1.232
+Laser2: 0.208
+
+Temps: 7.176150000000001
+Laser1: 1.218
+Laser2: 0.24
+
+Temps: 7.192800000000001
+Laser1: 1.238
+Laser2: 0.24
+
+Temps: 7.20945
+Laser1: 1.162
+Laser2: 0.264
+
+Temps: 7.226100000000001
+Laser1: 1.2
+Laser2: 0.24
+
+Temps: 7.242750000000001
+Laser1: 1.148
+Laser2: 0.24
+
+Temps: 7.2594
+Laser1: 1.176
+Laser2: 0.264
+
+Temps: 7.276050000000001
+Laser1: 1.196
+Laser2: 0.256
+
+Temps: 7.292700000000001
+Laser1: 1.246
+Laser2: 0.28
+
+Temps: 7.309350000000001
+Laser1: 1.246
+Laser2: 0.296
+
+Temps: 7.3260000000000005
+Laser1: 1.248
+Laser2: 0.328
+
+Temps: 7.342650000000001
+Laser1: 1.212
+Laser2: 0.288
+
+Temps: 7.359300000000001
+Laser1: 1.174
+Laser2: 0.252
+
+Temps: 7.3759500000000005
+Laser1: 1.176
+Laser2: 0.232
+
+Temps: 7.392600000000001
+Laser1: 1.152
+Laser2: 0.232
+
+Temps: 7.409250000000001
+Laser1: 1.174
+Laser2: 0.208
+
+Temps: 7.4259
+Laser1: 1.252
+Laser2: 0.244
+
+Temps: 7.442550000000001
+Laser1: 1.284
+Laser2: 0.284
+
+Temps: 7.459200000000001
+Laser1: 1.326
+Laser2: 0.336
+
+Temps: 7.47585
+Laser1: 1.24
+Laser2: 0.324
+
+Temps: 7.492500000000001
+Laser1: 1.188
+Laser2: 0.292
+
+Temps: 7.509150000000001
+Laser1: 1.254
+Laser2: 0.276
+
+Temps: 7.525800000000001
+Laser1: 1.19
+Laser2: 0.236
+
+Temps: 7.5424500000000005
+Laser1: 1.224
+Laser2: 0.24
+
+Temps: 7.559100000000001
+Laser1: 1.244
+Laser2: 0.232
+
+Temps: 7.575750000000001
+Laser1: 1.212
+Laser2: 0.256
+
+Temps: 7.5924000000000005
+Laser1: 1.234
+Laser2: 0.26
+
+Temps: 7.609050000000001
+Laser1: 1.158
+Laser2: 0.264
+
+Temps: 7.625700000000001
+Laser1: 1.19
+Laser2: 0.248
+
+Temps: 7.64235
+Laser1: 1.178
+Laser2: 0.252
+
+Temps: 7.659000000000001
+Laser1: 1.19
+Laser2: 0.26
+
+Temps: 7.675650000000001
+Laser1: 1.234
+Laser2: 0.232
+
+Temps: 7.6923
+Laser1: 1.206
+Laser2: 0.212
+
+Temps: 7.708950000000001
+Laser1: 1.162
+Laser2: 0.204
+
+Temps: 7.725600000000001
+Laser1: 1.188
+Laser2: 0.212
+
+Temps: 7.742250000000001
+Laser1: 1.158
+Laser2: 0.224
+
+Temps: 7.758900000000001
+Laser1: 1.184
+Laser2: 0.228
+
+Temps: 7.775550000000001
+Laser1: 1.156
+Laser2: 0.196
+
+Temps: 7.792200000000001
+Laser1: 1.18
+Laser2: 0.216
+
+Temps: 7.8088500000000005
+Laser1: 1.196
+Laser2: 0.236
+
+Temps: 7.825500000000001
+Laser1: 1.264
+Laser2: 0.268
+
+Temps: 7.842150000000001
+Laser1: 1.268
+Laser2: 0.236
+
+Temps: 7.8588000000000005
+Laser1: 1.21
+Laser2: 0.256
+
+Temps: 7.875450000000001
+Laser1: 1.212
+Laser2: 0.224
+
+Temps: 7.892100000000001
+Laser1: 1.15
+Laser2: 0.208
+
+Temps: 7.90875
+Laser1: 1.21
+Laser2: 0.208
+
+Temps: 7.925400000000001
+Laser1: 1.198
+Laser2: 0.244
+
+Temps: 7.942050000000001
+Laser1: 1.212
+Laser2: 0.22
+
+Temps: 7.9587
+Laser1: 1.196
+Laser2: 0.232
+
+Temps: 7.975350000000001
+Laser1: 1.178
+Laser2: 0.224
+
+Temps: 7.992000000000001
+Laser1: 1.168
+Laser2: 0.216
+
+Temps: 8.008650000000001
+Laser1: 1.174
+Laser2: 0.2
+
+Temps: 8.025300000000001
+Laser1: 1.154
+Laser2: 0.196
+
+Temps: 8.04195
+Laser1: 1.118
+Laser2: 0.232
+
+Temps: 8.0586
+Laser1: 1.11
+Laser2: 0.26
+
+Temps: 8.07525
+Laser1: 1.224
+Laser2: 0.26
+
+Temps: 8.0919
+Laser1: 1.212
+Laser2: 0.208
+
+Temps: 8.108550000000001
+Laser1: 1.11
+Laser2: 0.184
+
+Temps: 8.125200000000001
+Laser1: 1.096
+Laser2: 0.196
+
+Temps: 8.141850000000002
+Laser1: 1.07
+Laser2: 0.184
+
+Temps: 8.1585
+Laser1: 1.148
+Laser2: 0.192
+
+Temps: 8.17515
+Laser1: 1.188
+Laser2: 0.22
+
+Temps: 8.1918
+Laser1: 1.168
+Laser2: 0.264
+
+Temps: 8.208450000000001
+Laser1: 1.192
+Laser2: 0.248
+
+Temps: 8.225100000000001
+Laser1: 1.144
+Laser2: 0.196
+
+Temps: 8.241750000000001
+Laser1: 1.166
+Laser2: 0.188
+
+Temps: 8.2584
+Laser1: 1.146
+Laser2: 0.228
+
+Temps: 8.27505
+Laser1: 1.168
+Laser2: 0.212
+
+Temps: 8.2917
+Laser1: 1.112
+Laser2: 0.2
+
+Temps: 8.30835
+Laser1: 1.136
+Laser2: 0.208
+
+Temps: 8.325000000000001
+Laser1: 1.198
+Laser2: 0.24
+
+Temps: 8.341650000000001
+Laser1: 1.204
+Laser2: 0.232
+
+Temps: 8.358300000000002
+Laser1: 1.128
+Laser2: 0.216
+
+Temps: 8.37495
+Laser1: 1.144
+Laser2: 0.212
+
+Temps: 8.3916
+Laser1: 1.134
+Laser2: 0.244
+
+Temps: 8.40825
+Laser1: 1.124
+Laser2: 0.232
+
+Temps: 8.424900000000001
+Laser1: 1.046
+Laser2: 0.216
+
+Temps: 8.441550000000001
+Laser1: 1.116
+Laser2: 0.2
+
+Temps: 8.458200000000001
+Laser1: 1.142
+Laser2: 0.208
+
+Temps: 8.47485
+Laser1: 1.12
+Laser2: 0.224
+
+Temps: 8.4915
+Laser1: 1.022
+Laser2: 0.22
+
+Temps: 8.50815
+Laser1: 1.058
+Laser2: 0.208
+
+Temps: 8.5248
+Laser1: 1.086
+Laser2: 0.236
+
+Temps: 8.541450000000001
+Laser1: 1.112
+Laser2: 0.252
+
+Temps: 8.558100000000001
+Laser1: 1.1
+Laser2: 0.208
+
+Temps: 8.574750000000002
+Laser1: 1.124
+Laser2: 0.208
+
+Temps: 8.5914
+Laser1: 1.11
+Laser2: 0.232
+
+Temps: 8.60805
+Laser1: 1.102
+Laser2: 0.228
+
+Temps: 8.6247
+Laser1: 1.094
+Laser2: 0.216
+
+Temps: 8.641350000000001
+Laser1: 1.124
+Laser2: 0.224
+
+Temps: 8.658000000000001
+Laser1: 1.138
+Laser2: 0.24
+
+Temps: 8.674650000000002
+Laser1: 1.128
+Laser2: 0.252
+
+Temps: 8.6913
+Laser1: 1.124
+Laser2: 0.252
+
+Temps: 8.70795
+Laser1: 1.128
+Laser2: 0.236
+
+Temps: 8.7246
+Laser1: 1.172
+Laser2: 0.264
+
+Temps: 8.74125
+Laser1: 1.176
+Laser2: 0.252
+
+Temps: 8.757900000000001
+Laser1: 1.166
+Laser2: 0.228
+
+Temps: 8.774550000000001
+Laser1: 1.17
+Laser2: 0.18
+
+Temps: 8.791200000000002
+Laser1: 1.156
+Laser2: 0.196
+
+Temps: 8.80785
+Laser1: 1.186
+Laser2: 0.216
+
+Temps: 8.8245
+Laser1: 1.158
+Laser2: 0.22
+
+Temps: 8.84115
+Laser1: 1.194
+Laser2: 0.208
+
+Temps: 8.857800000000001
+Laser1: 1.144
+Laser2: 0.216
+
+Temps: 8.874450000000001
+Laser1: 1.188
+Laser2: 0.232
+
+Temps: 8.891100000000002
+Laser1: 1.188
+Laser2: 0.248
+
+Temps: 8.90775
+Laser1: 1.216
+Laser2: 0.276
+
+Temps: 8.9244
+Laser1: 1.196
+Laser2: 0.268
+
+Temps: 8.94105
+Laser1: 1.176
+Laser2: 0.24
+
+Temps: 8.9577
+Laser1: 1.152
+Laser2: 0.172
+
+Temps: 8.974350000000001
+Laser1: 1.064
+Laser2: 0.172
+
+Temps: 8.991000000000001
+Laser1: 1.05
+Laser2: 0.188
+
+Temps: 9.007650000000002
+Laser1: 1.112
+Laser2: 0.232
+
+Temps: 9.0243
+Laser1: 1.172
+Laser2: 0.232
+
+Temps: 9.04095
+Laser1: 1.212
+Laser2: 0.256
+
+Temps: 9.0576
+Laser1: 1.214
+Laser2: 0.26
+
+Temps: 9.074250000000001
+Laser1: 1.168
+Laser2: 0.276
+
+Temps: 9.090900000000001
+Laser1: 1.18
+Laser2: 0.256
+
+Temps: 9.107550000000002
+Laser1: 1.132
+Laser2: 0.204
+
+Temps: 9.1242
+Laser1: 1.146
+Laser2: 0.22
+
+Temps: 9.14085
+Laser1: 1.154
+Laser2: 0.22
+
+Temps: 9.1575
+Laser1: 1.172
+Laser2: 0.232
+
+Temps: 9.174150000000001
+Laser1: 1.166
+Laser2: 0.228
+
+Temps: 9.190800000000001
+Laser1: 1.17
+Laser2: 0.244
+
+Temps: 9.207450000000001
+Laser1: 1.196
+Laser2: 0.244
+
+Temps: 9.224100000000002
+Laser1: 1.14
+Laser2: 0.24
+
+Temps: 9.24075
+Laser1: 1.172
+Laser2: 0.208
+
+Temps: 9.2574
+Laser1: 1.138
+Laser2: 0.216
+
+Temps: 9.27405
+Laser1: 1.162
+Laser2: 0.208
+
+Temps: 9.290700000000001
+Laser1: 1.2
+Laser2: 0.176
+
+Temps: 9.307350000000001
+Laser1: 1.188
+Laser2: 0.188
+
+Temps: 9.324000000000002
+Laser1: 1.154
+Laser2: 0.212
+
+Temps: 9.34065
+Laser1: 1.112
+Laser2: 0.252
+
+Temps: 9.3573
+Laser1: 1.096
+Laser2: 0.216
+
+Temps: 9.37395
+Laser1: 1.144
+Laser2: 0.216
+
+Temps: 9.390600000000001
+Laser1: 1.19
+Laser2: 0.208
+
+Temps: 9.407250000000001
+Laser1: 1.106
+Laser2: 0.232
+
+Temps: 9.423900000000001
+Laser1: 1.128
+Laser2: 0.192
+
+Temps: 9.440550000000002
+Laser1: 1.116
+Laser2: 0.192
+
+Temps: 9.4572
+Laser1: 1.182
+Laser2: 0.188
+
+Temps: 9.47385
+Laser1: 1.126
+Laser2: 0.228
+
+Temps: 9.4905
+Laser1: 1.22
+Laser2: 0.236
+
+Temps: 9.507150000000001
+Laser1: 1.192
+Laser2: 0.248
+
+Temps: 9.523800000000001
+Laser1: 1.196
+Laser2: 0.264
+
+Temps: 9.540450000000002
+Laser1: 1.178
+Laser2: 0.26
+
+Temps: 9.5571
+Laser1: 1.194
+Laser2: 0.244
+
+Temps: 9.57375
+Laser1: 1.18
+Laser2: 0.216
+
+Temps: 9.5904
+Laser1: 1.152
+Laser2: 0.204
+
+Temps: 9.607050000000001
+Laser1: 1.136
+Laser2: 0.18
+
+Temps: 9.623700000000001
+Laser1: 1.102
+Laser2: 0.18
+
+Temps: 9.640350000000002
+Laser1: 1.138
+Laser2: 0.208
+
+Temps: 9.657000000000002
+Laser1: 1.198
+Laser2: 0.26
+
+Temps: 9.67365
+Laser1: 1.172
+Laser2: 0.268
+
+Temps: 9.6903
+Laser1: 1.134
+Laser2: 0.28
+
+Temps: 9.70695
+Laser1: 1.178
+Laser2: 0.264
+
+Temps: 9.723600000000001
+Laser1: 1.124
+Laser2: 0.216
+
+Temps: 9.740250000000001
+Laser1: 1.158
+Laser2: 0.236
+
+Temps: 9.756900000000002
+Laser1: 1.14
+Laser2: 0.2
+
+Temps: 9.77355
+Laser1: 1.194
+Laser2: 0.188
+
+Temps: 9.7902
+Laser1: 1.23
+Laser2: 0.2
+
+Temps: 9.80685
+Laser1: 1.186
+Laser2: 0.264
+
+Temps: 9.823500000000001
+Laser1: 1.218
+Laser2: 0.28
+
+Temps: 9.840150000000001
+Laser1: 1.152
+Laser2: 0.296
+
+Temps: 9.856800000000002
+Laser1: 1.184
+Laser2: 0.244
+
+Temps: 9.873450000000002
+Laser1: 1.134
+Laser2: 0.24
+
+Temps: 9.8901
+Laser1: 1.2
+Laser2: 0.216
+
+Temps: 9.90675
+Laser1: 1.184
+Laser2: 0.212
+
+Temps: 9.9234
+Laser1: 1.176
+Laser2: 0.236
+
+Temps: 9.940050000000001
+Laser1: 1.148
+Laser2: 0.236
+
+Temps: 9.956700000000001
+Laser1: 1.154
+Laser2: 0.228
+
+Temps: 9.973350000000002
+Laser1: 1.148
+Laser2: 0.208
+
+Temps: 9.99
+Laser1: 1.17
+Laser2: 0.236
+
+Temps: 10.00665
+Laser1: 1.17
+Laser2: 0.26
+
+Temps: 10.0233
+Laser1: 1.208
+Laser2: 0.268
+
+Temps: 10.039950000000001
+Laser1: 1.204
+Laser2: 0.224
+
+Temps: 10.056600000000001
+Laser1: 1.216
+Laser2: 0.22
+
+Temps: 10.073250000000002
+Laser1: 1.206
+Laser2: 0.228
+
+Temps: 10.0899
+Laser1: 1.112
+Laser2: 0.208
+
+Temps: 10.10655
+Laser1: 1.176
+Laser2: 0.216
+
+Temps: 10.1232
+Laser1: 1.192
+Laser2: 0.232
+
+Temps: 10.139850000000001
+Laser1: 1.196
+Laser2: 0.256
+
+Temps: 10.156500000000001
+Laser1: 1.192
+Laser2: 0.224
+
+Temps: 10.173150000000001
+Laser1: 1.212
+Laser2: 0.208
+
+Temps: 10.189800000000002
+Laser1: 1.224
+Laser2: 0.236
+
+Temps: 10.20645
+Laser1: 1.212
+Laser2: 0.264
+
+Temps: 10.2231
+Laser1: 1.19
+Laser2: 0.22
+
+Temps: 10.23975
+Laser1: 1.162
+Laser2: 0.24
+
+Temps: 10.256400000000001
+Laser1: 1.166
+Laser2: 0.224
+
+Temps: 10.273050000000001
+Laser1: 1.194
+Laser2: 0.224
+
+Temps: 10.289700000000002
+Laser1: 1.17
+Laser2: 0.22
+
+Temps: 10.30635
+Laser1: 1.198
+Laser2: 0.224
+
+Temps: 10.323
+Laser1: 1.22
+Laser2: 0.256
+
+Temps: 10.33965
+Laser1: 1.192
+Laser2: 0.244
+
+Temps: 10.356300000000001
+Laser1: 1.242
+Laser2: 0.248
+
+Temps: 10.372950000000001
+Laser1: 1.204
+Laser2: 0.224
+
+Temps: 10.389600000000002
+Laser1: 1.204
+Laser2: 0.24
+
+Temps: 10.406250000000002
+Laser1: 1.204
+Laser2: 0.256
+
+Temps: 10.4229
+Laser1: 1.204
+Laser2: 0.252
+
+Temps: 10.43955
+Laser1: 1.202
+Laser2: 0.208
+
+Temps: 10.4562
+Laser1: 1.168
+Laser2: 0.2
+
+Temps: 10.472850000000001
+Laser1: 1.178
+Laser2: 0.224
+
+Temps: 10.489500000000001
+Laser1: 1.194
+Laser2: 0.248
+
+Temps: 10.506150000000002
+Laser1: 1.232
+Laser2: 0.224
+
+Temps: 10.5228
+Laser1: 1.25
+Laser2: 0.224
+
+Temps: 10.53945
+Laser1: 1.228
+Laser2: 0.236
+
+Temps: 10.5561
+Laser1: 1.238
+Laser2: 0.244
+
+Temps: 10.572750000000001
+Laser1: 1.212
+Laser2: 0.236
+
+Temps: 10.589400000000001
+Laser1: 1.226
+Laser2: 0.236
+
+Temps: 10.606050000000002
+Laser1: 1.216
+Laser2: 0.272
+
+Temps: 10.622700000000002
+Laser1: 1.182
+Laser2: 0.264
+
+Temps: 10.63935
+Laser1: 1.228
+Laser2: 0.236
+
+Temps: 10.656
+Laser1: 1.264
+Laser2: 0.236
+
+Temps: 10.67265
+Laser1: 1.268
+Laser2: 0.268
+
+Temps: 10.689300000000001
+Laser1: 1.268
+Laser2: 0.24
+
+Temps: 10.705950000000001
+Laser1: 1.292
+Laser2: 0.22
+
+Temps: 10.722600000000002
+Laser1: 1.304
+Laser2: 0.228
+
+Temps: 10.73925
+Laser1: 1.276
+Laser2: 0.248
+
+Temps: 10.7559
+Laser1: 1.32
+Laser2: 0.26
+
+Temps: 10.77255
+Laser1: 1.314
+Laser2: 0.252
+
+Temps: 10.789200000000001
+Laser1: 1.27
+Laser2: 0.24
+
+Temps: 10.805850000000001
+Laser1: 1.192
+Laser2: 0.252
+
+Temps: 10.822500000000002
+Laser1: 1.24
+Laser2: 0.256
+
+Temps: 10.839150000000002
+Laser1: 1.31
+Laser2: 0.22
+
+Temps: 10.8558
+Laser1: 1.28
+Laser2: 0.224
+
+Temps: 10.87245
+Laser1: 1.2
+Laser2: 0.252
+
+Temps: 10.889100000000001
+Laser1: 1.218
+Laser2: 0.272
+
+Temps: 10.905750000000001
+Laser1: 1.25
+Laser2: 0.244
+
+Temps: 10.922400000000001
+Laser1: 1.234
+Laser2: 0.228
+
+Temps: 10.939050000000002
+Laser1: 1.192
+Laser2: 0.216
+
+Temps: 10.9557
+Laser1: 1.178
+Laser2: 0.252
+
+Temps: 10.97235
+Laser1: 1.204
+Laser2: 0.244
+
+Temps: 10.989
+Laser1: 1.262
+Laser2: 0.244
+
+Temps: 11.005650000000001
+Laser1: 1.224
+Laser2: 0.26
+
+Temps: 11.022300000000001
+Laser1: 1.178
+Laser2: 0.284
+
+Temps: 11.038950000000002
+Laser1: 1.166
+Laser2: 0.26
+
+Temps: 11.055600000000002
+Laser1: 1.164
+Laser2: 0.244
+
+Temps: 11.07225
+Laser1: 1.186
+Laser2: 0.228
+
+Temps: 11.0889
+Laser1: 1.22
+Laser2: 0.248
+
+Temps: 11.105550000000001
+Laser1: 1.184
+Laser2: 0.268
+
+Temps: 11.122200000000001
+Laser1: 1.208
+Laser2: 0.272
+
+Temps: 11.138850000000001
+Laser1: 1.224
+Laser2: 0.272
+
+Temps: 11.155500000000002
+Laser1: 1.198
+Laser2: 0.256
+
+Temps: 11.17215
+Laser1: 1.13
+Laser2: 0.22
+
+Temps: 11.1888
+Laser1: 1.16
+Laser2: 0.208
+
+Temps: 11.20545
+Laser1: 1.144
+Laser2: 0.224
+
+Temps: 11.222100000000001
+Laser1: 1.17
+Laser2: 0.256
+
+Temps: 11.238750000000001
+Laser1: 1.16
+Laser2: 0.248
+
+Temps: 11.255400000000002
+Laser1: 1.146
+Laser2: 0.224
+
+Temps: 11.272050000000002
+Laser1: 1.118
+Laser2: 0.224
+
+Temps: 11.2887
+Laser1: 1.122
+Laser2: 0.232
+
+Temps: 11.30535
+Laser1: 1.16
+Laser2: 0.2
+
+Temps: 11.322000000000001
+Laser1: 1.192
+Laser2: 0.216
+
+Temps: 11.338650000000001
+Laser1: 1.188
+Laser2: 0.22
+
+Temps: 11.355300000000002
+Laser1: 1.12
+Laser2: 0.228
+
+Temps: 11.371950000000002
+Laser1: 1.176
+Laser2: 0.228
+
+Temps: 11.3886
+Laser1: 1.24
+Laser2: 0.24
+
+Temps: 11.40525
+Laser1: 1.234
+Laser2: 0.24
+
+Temps: 11.4219
+Laser1: 1.204
+Laser2: 0.26
+
+Temps: 11.438550000000001
+Laser1: 1.236
+Laser2: 0.24
+
+Temps: 11.455200000000001
+Laser1: 1.164
+Laser2: 0.252
+
+Temps: 11.471850000000002
+Laser1: 1.176
+Laser2: 0.216
+
+Temps: 11.488500000000002
+Laser1: 1.172
+Laser2: 0.244
+
+Temps: 11.50515
+Laser1: 1.232
+Laser2: 0.256
+
+Temps: 11.5218
+Laser1: 1.27
+Laser2: 0.252
+
+Temps: 11.538450000000001
+Laser1: 1.244
+Laser2: 0.236
+
+Temps: 11.555100000000001
+Laser1: 1.218
+Laser2: 0.256
+
+Temps: 11.571750000000002
+Laser1: 1.186
+Laser2: 0.264
+
+Temps: 11.588400000000002
+Laser1: 1.194
+Laser2: 0.256
+
+Temps: 11.60505
+Laser1: 1.192
+Laser2: 0.256
+
+Temps: 11.6217
+Laser1: 1.176
+Laser2: 0.244
+
+Temps: 11.63835
+Laser1: 1.166
+Laser2: 0.228
+
+Temps: 11.655000000000001
+Laser1: 1.13
+Laser2: 0.216
+
+Temps: 11.671650000000001
+Laser1: 1.13
+Laser2: 0.196
+
+Temps: 11.688300000000002
+Laser1: 1.12
+Laser2: 0.236
+
+Temps: 11.704950000000002
+Laser1: 1.122
+Laser2: 0.248
+
+Temps: 11.7216
+Laser1: 1.188
+Laser2: 0.236
+
+Temps: 11.73825
+Laser1: 1.198
+Laser2: 0.212
+
+Temps: 11.754900000000001
+Laser1: 1.138
+Laser2: 0.256
+
+Temps: 11.771550000000001
+Laser1: 1.136
+Laser2: 0.224
+
+Temps: 11.788200000000002
+Laser1: 1.114
+Laser2: 0.2
+
+Temps: 11.804850000000002
+Laser1: 1.184
+Laser2: 0.192
+
+Temps: 11.8215
+Laser1: 1.142
+Laser2: 0.252
+
+Temps: 11.83815
+Laser1: 1.17
+Laser2: 0.224
+
+Temps: 11.854800000000001
+Laser1: 1.158
+Laser2: 0.232
+
+Temps: 11.871450000000001
+Laser1: 1.176
+Laser2: 0.236
+
+Temps: 11.888100000000001
+Laser1: 1.16
+Laser2: 0.256
+
+Temps: 11.904750000000002
+Laser1: 1.194
+Laser2: 0.22
+
+Temps: 11.921400000000002
+Laser1: 1.164
+Laser2: 0.196
+
+Temps: 11.93805
+Laser1: 1.16
+Laser2: 0.2
+
+Temps: 11.9547
+Laser1: 1.114
+Laser2: 0.212
+
+Temps: 11.971350000000001
+Laser1: 1.184
+Laser2: 0.22
+
+Temps: 11.988000000000001
+Laser1: 1.132
+Laser2: 0.196
+
+Temps: 12.004650000000002
+Laser1: 1.154
+Laser2: 0.224
+
+Temps: 12.021300000000002
+Laser1: 1.152
+Laser2: 0.236
+
+Temps: 12.03795
+Laser1: 1.21
+Laser2: 0.24
+
+Temps: 12.0546
+Laser1: 1.18
+Laser2: 0.208
+
+Temps: 12.071250000000001
+Laser1: 1.146
+Laser2: 0.228
+
+Temps: 12.087900000000001
+Laser1: 1.168
+Laser2: 0.248
+
+Temps: 12.104550000000001
+Laser1: 1.15
+Laser2: 0.244
+
+Temps: 12.121200000000002
+Laser1: 1.108
+Laser2: 0.212
+
+Temps: 12.137850000000002
+Laser1: 1.094
+Laser2: 0.168
+
+Temps: 12.1545
+Laser1: 1.118
+Laser2: 0.16
+
+Temps: 12.17115
+Laser1: 1.098
+Laser2: 0.18
+
+Temps: 12.187800000000001
+Laser1: 1.142
+Laser2: 0.216
+
+Temps: 12.204450000000001
+Laser1: 1.134
+Laser2: 0.236
+
+Temps: 12.221100000000002
+Laser1: 1.124
+Laser2: 0.268
+
+Temps: 12.237750000000002
+Laser1: 1.134
+Laser2: 0.236
+
+Temps: 12.2544
+Laser1: 1.128
+Laser2: 0.204
+
+Temps: 12.27105
+Laser1: 1.066
+Laser2: 0.176
+
+Temps: 12.287700000000001
+Laser1: 1.046
+Laser2: 0.2
+
+Temps: 12.304350000000001
+Laser1: 1.16
+Laser2: 0.2
+
+Temps: 12.321000000000002
+Laser1: 1.144
+Laser2: 0.204
+
+Temps: 12.337650000000002
+Laser1: 1.142
+Laser2: 0.216
+
+Temps: 12.354300000000002
+Laser1: 1.106
+Laser2: 0.236
+
+Temps: 12.37095
+Laser1: 1.182
+Laser2: 0.248
+
+Temps: 12.3876
+Laser1: 1.13
+Laser2: 0.224
+
+Temps: 12.404250000000001
+Laser1: 1.148
+Laser2: 0.22
+
+Temps: 12.420900000000001
+Laser1: 1.04
+Laser2: 0.192
+
+Temps: 12.437550000000002
+Laser1: 1.054
+Laser2: 0.216
+
+Temps: 12.454200000000002
+Laser1: 1.094
+Laser2: 0.172
+
+Temps: 12.47085
+Laser1: 1.102
+Laser2: 0.172
+
+Temps: 12.4875
+Laser1: 1.12
+Laser2: 0.204
+
+Temps: 12.504150000000001
+Laser1: 1.112
+Laser2: 0.24
+
+Temps: 12.520800000000001
+Laser1: 1.122
+Laser2: 0.224
+
+Temps: 12.537450000000002
+Laser1: 1.11
+Laser2: 0.212
+
+Temps: 12.554100000000002
+Laser1: 1.154
+Laser2: 0.224
+
+Temps: 12.570750000000002
+Laser1: 1.092
+Laser2: 0.232
+
+Temps: 12.5874
+Laser1: 1.098
+Laser2: 0.216
+
+Temps: 12.60405
+Laser1: 1.076
+Laser2: 0.18
+
+Temps: 12.620700000000001
+Laser1: 1.112
+Laser2: 0.208
+
+Temps: 12.637350000000001
+Laser1: 1.072
+Laser2: 0.2
+
+Temps: 12.654000000000002
+Laser1: 1.066
+Laser2: 0.208
+
+Temps: 12.670650000000002
+Laser1: 1.082
+Laser2: 0.204
+
+Temps: 12.6873
+Laser1: 1.084
+Laser2: 0.256
+
+Temps: 12.70395
+Laser1: 1.122
+Laser2: 0.272
+
+Temps: 12.720600000000001
+Laser1: 1.13
+Laser2: 0.264
+
+Temps: 12.737250000000001
+Laser1: 1.176
+Laser2: 0.236
+
+Temps: 12.753900000000002
+Laser1: 1.13
+Laser2: 0.22
+
+Temps: 12.770550000000002
+Laser1: 1.13
+Laser2: 0.212
+
+Temps: 12.787200000000002
+Laser1: 1.032
+Laser2: 0.18
+
+Temps: 12.80385
+Laser1: 1.08
+Laser2: 0.176
+
+Temps: 12.820500000000001
+Laser1: 1.1
+Laser2: 0.196
+
+Temps: 12.837150000000001
+Laser1: 1.124
+Laser2: 0.228
+
+Temps: 12.853800000000001
+Laser1: 1.13
+Laser2: 0.208
+
+Temps: 12.870450000000002
+Laser1: 1.126
+Laser2: 0.228
+
+Temps: 12.887100000000002
+Laser1: 1.092
+Laser2: 0.228
+
+Temps: 12.90375
+Laser1: 1.084
+Laser2: 0.24
+
+Temps: 12.9204
+Laser1: 1.134
+Laser2: 0.224
+
+Temps: 12.937050000000001
+Laser1: 1.138
+Laser2: 0.244
+
+Temps: 12.953700000000001
+Laser1: 1.188
+Laser2: 0.248
+
+Temps: 12.970350000000002
+Laser1: 1.13
+Laser2: 0.264
+
+Temps: 12.987000000000002
+Laser1: 1.152
+Laser2: 0.22
+
+Temps: 13.00365
+Laser1: 1.112
+Laser2: 0.204
+
+Temps: 13.0203
+Laser1: 1.166
+Laser2: 0.232
+
+Temps: 13.036950000000001
+Laser1: 1.172
+Laser2: 0.248
+
+Temps: 13.053600000000001
+Laser1: 1.14
+Laser2: 0.24
+
+Temps: 13.070250000000001
+Laser1: 1.168
+Laser2: 0.244
+
+Temps: 13.086900000000002
+Laser1: 1.184
+Laser2: 0.252
+
+Temps: 13.103550000000002
+Laser1: 1.186
+Laser2: 0.248
+
+Temps: 13.1202
+Laser1: 1.172
+Laser2: 0.244
+
+Temps: 13.13685
+Laser1: 1.176
+Laser2: 0.212
+
+Temps: 13.153500000000001
+Laser1: 1.16
+Laser2: 0.216
+
+Temps: 13.170150000000001
+Laser1: 1.13
+Laser2: 0.236
+
+Temps: 13.186800000000002
+Laser1: 1.14
+Laser2: 0.22
+
+Temps: 13.203450000000002
+Laser1: 1.22
+Laser2: 0.236
+
+Temps: 13.2201
+Laser1: 1.208
+Laser2: 0.248
+
+Temps: 13.23675
+Laser1: 1.162
+Laser2: 0.256
+
+Temps: 13.253400000000001
+Laser1: 1.104
+Laser2: 0.216
+
+Temps: 13.270050000000001
+Laser1: 1.146
+Laser2: 0.216
+
+Temps: 13.286700000000002
+Laser1: 1.168
+Laser2: 0.236
+
+Temps: 13.303350000000002
+Laser1: 1.156
+Laser2: 0.272
+
+Temps: 13.320000000000002
+Laser1: 1.182
+Laser2: 0.252
+
+Temps: 13.33665
+Laser1: 1.164
+Laser2: 0.256
+
+Temps: 13.3533
+Laser1: 1.19
+Laser2: 0.22
+
+Temps: 13.369950000000001
+Laser1: 1.108
+Laser2: 0.216
+
+Temps: 13.386600000000001
+Laser1: 1.192
+Laser2: 0.192
+
+Temps: 13.403250000000002
+Laser1: 1.21
+Laser2: 0.184
+
+Temps: 13.419900000000002
+Laser1: 1.18
+Laser2: 0.2
+
+Temps: 13.43655
+Laser1: 1.144
+Laser2: 0.216
+
+Temps: 13.4532
+Laser1: 1.156
+Laser2: 0.232
+
+Temps: 13.469850000000001
+Laser1: 1.176
+Laser2: 0.252
+
+Temps: 13.486500000000001
+Laser1: 1.198
+Laser2: 0.256
+
+Temps: 13.503150000000002
+Laser1: 1.162
+Laser2: 0.252
+
+Temps: 13.519800000000002
+Laser1: 1.216
+Laser2: 0.268
+
+Temps: 13.536450000000002
+Laser1: 1.242
+Laser2: 0.26
+
+Temps: 13.5531
+Laser1: 1.216
+Laser2: 0.236
+
+Temps: 13.56975
+Laser1: 1.222
+Laser2: 0.228
+
+Temps: 13.586400000000001
+Laser1: 1.254
+Laser2: 0.22
+
+Temps: 13.603050000000001
+Laser1: 1.31
+Laser2: 0.232
+
+Temps: 13.619700000000002
+Laser1: 1.282
+Laser2: 0.236
+
+Temps: 13.636350000000002
+Laser1: 1.214
+Laser2: 0.268
+
+Temps: 13.653
+Laser1: 1.272
+Laser2: 0.252
+
+Temps: 13.66965
+Laser1: 1.26
+Laser2: 0.26
+
+Temps: 13.686300000000001
+Laser1: 1.264
+Laser2: 0.272
+
+Temps: 13.702950000000001
+Laser1: 1.274
+Laser2: 0.284
+
+Temps: 13.719600000000002
+Laser1: 1.262
+Laser2: 0.24
+
+Temps: 13.736250000000002
+Laser1: 1.2
+Laser2: 0.22
+
+Temps: 13.752900000000002
+Laser1: 1.214
+Laser2: 0.22
+
+Temps: 13.76955
+Laser1: 1.226
+Laser2: 0.26
+
+Temps: 13.786200000000001
+Laser1: 1.234
+Laser2: 0.3
+
+Temps: 13.802850000000001
+Laser1: 1.296
+Laser2: 0.296
+
+Temps: 13.819500000000001
+Laser1: 1.302
+Laser2: 0.28
+
+Temps: 13.836150000000002
+Laser1: 1.27
+Laser2: 0.308
+
+Temps: 13.852800000000002
+Laser1: 1.274
+Laser2: 0.3
+
+Temps: 13.86945
+Laser1: 1.282
+Laser2: 0.256
+
+Temps: 13.8861
+Laser1: 1.284
+Laser2: 0.248
+
+Temps: 13.902750000000001
+Laser1: 1.256
+Laser2: 0.248
+
+Temps: 13.919400000000001
+Laser1: 1.254
+Laser2: 0.268
+
+Temps: 13.936050000000002
+Laser1: 1.264
+Laser2: 0.248
+
+Temps: 13.952700000000002
+Laser1: 1.28
+Laser2: 0.232
+
+Temps: 13.969350000000002
+Laser1: 1.26
+Laser2: 0.252
+
+Temps: 13.986
+Laser1: 1.28
+Laser2: 0.252
+
+Temps: 14.002650000000001
+Laser1: 1.226
+Laser2: 0.24
+
+Temps: 14.019300000000001
+Laser1: 1.226
+Laser2: 0.268
+
+Temps: 14.035950000000001
+Laser1: 1.228
+Laser2: 0.296
+
+Temps: 14.052600000000002
+Laser1: 1.226
+Laser2: 0.3
+
+Temps: 14.069250000000002
+Laser1: 1.23
+Laser2: 0.284
+
+Temps: 14.0859
+Laser1: 1.282
+Laser2: 0.252
+
+Temps: 14.10255
+Laser1: 1.268
+Laser2: 0.244
+
+Temps: 14.119200000000001
+Laser1: 1.238
+Laser2: 0.236
+
+Temps: 14.135850000000001
+Laser1: 1.228
+Laser2: 0.236
+
+Temps: 14.152500000000002
+Laser1: 1.214
+Laser2: 0.256
+
+Temps: 14.169150000000002
+Laser1: 1.22
+Laser2: 0.28
+
+Temps: 14.185800000000002
+Laser1: 1.198
+Laser2: 0.304
+
+Temps: 14.20245
+Laser1: 1.224
+Laser2: 0.296
+
+Temps: 14.219100000000001
+Laser1: 1.228
+Laser2: 0.268
+
+Temps: 14.235750000000001
+Laser1: 1.242
+Laser2: 0.244
+
+Temps: 14.252400000000002
+Laser1: 1.282
+Laser2: 0.236
+
+Temps: 14.269050000000002
+Laser1: 1.24
+Laser2: 0.216
+
+Temps: 14.285700000000002
+Laser1: 1.212
+Laser2: 0.224
+
+Temps: 14.30235
+Laser1: 1.224
+Laser2: 0.244
+
+Temps: 14.319
+Laser1: 1.222
+Laser2: 0.28
+
+Temps: 14.335650000000001
+Laser1: 1.204
+Laser2: 0.28
+
+Temps: 14.352300000000001
+Laser1: 1.194
+Laser2: 0.296
+
+Temps: 14.368950000000002
+Laser1: 1.176
+Laser2: 0.312
+
+Temps: 14.385600000000002
+Laser1: 1.224
+Laser2: 0.328
+
+Temps: 14.402250000000002
+Laser1: 1.234
+Laser2: 0.28
+
+Temps: 14.4189
+Laser1: 1.188
+Laser2: 0.276
+
+Temps: 14.435550000000001
+Laser1: 1.172
+Laser2: 0.264
+
+Temps: 14.452200000000001
+Laser1: 1.166
+Laser2: 0.26
+
+Temps: 14.468850000000002
+Laser1: 1.176
+Laser2: 0.24
+
+Temps: 14.485500000000002
+Laser1: 1.188
+Laser2: 0.232
+
+Temps: 14.502150000000002
+Laser1: 1.182
+Laser2: 0.248
+
+Temps: 14.5188
+Laser1: 1.21
+Laser2: 0.288
+
+Temps: 14.53545
+Laser1: 1.224
+Laser2: 0.296
+
+Temps: 14.552100000000001
+Laser1: 1.23
+Laser2: 0.324
+
+Temps: 14.568750000000001
+Laser1: 1.226
+Laser2: 0.3
+
+Temps: 14.585400000000002
+Laser1: 1.216
+Laser2: 0.252
+
+Temps: 14.602050000000002
+Laser1: 1.172
+Laser2: 0.24
+
+Temps: 14.618700000000002
+Laser1: 1.202
+Laser2: 0.24
+
+Temps: 14.63535
+Laser1: 1.254
+Laser2: 0.256
+
+Temps: 14.652000000000001
+Laser1: 1.258
+Laser2: 0.256
+
+Temps: 14.668650000000001
+Laser1: 1.246
+Laser2: 0.264
+
+Temps: 14.685300000000002
+Laser1: 1.244
+Laser2: 0.268
+
+Temps: 14.701950000000002
+Laser1: 1.238
+Laser2: 0.264
+
+Temps: 14.718600000000002
+Laser1: 1.258
+Laser2: 0.288
+
+Temps: 14.73525
+Laser1: 1.236
+Laser2: 0.284
+
+Temps: 14.751900000000001
+Laser1: 1.234
+Laser2: 0.272
+
+Temps: 14.768550000000001
+Laser1: 1.24
+Laser2: 0.288
+
+Temps: 14.785200000000001
+Laser1: 1.224
+Laser2: 0.28
+
+Temps: 14.801850000000002
+Laser1: 1.226
+Laser2: 0.26
+
+Temps: 14.818500000000002
+Laser1: 1.214
+Laser2: 0.288
+
+Temps: 14.835150000000002
+Laser1: 1.222
+Laser2: 0.28
+
+Temps: 14.8518
+Laser1: 1.218
+Laser2: 0.296
+
+Temps: 14.868450000000001
+Laser1: 1.236
+Laser2: 0.272
+
+Temps: 14.885100000000001
+Laser1: 1.248
+Laser2: 0.256
+
+Temps: 14.901750000000002
+Laser1: 1.288
+Laser2: 0.256
+
+Temps: 14.918400000000002
+Laser1: 1.222
+Laser2: 0.308
+
+Temps: 14.935050000000002
+Laser1: 1.224
+Laser2: 0.26
+
+Temps: 14.9517
+Laser1: 1.13
+Laser2: 0.232
+
+Temps: 14.968350000000001
+Laser1: 1.198
+Laser2: 0.212
+
+Temps: 14.985000000000001
+Laser1: 1.2
+Laser2: 0.228
+
+Temps: 15.001650000000001
+Laser1: 1.266
+Laser2: 0.264
+
+Temps: 15.018300000000002
+Laser1: 1.23
+Laser2: 0.268
+
+Temps: 15.034950000000002
+Laser1: 1.23
+Laser2: 0.276
+
+Temps: 15.051600000000002
+Laser1: 1.198
+Laser2: 0.264
+
+Temps: 15.06825
+Laser1: 1.162
+Laser2: 0.228
+
+Temps: 15.084900000000001
+Laser1: 1.132
+Laser2: 0.196
+
+Temps: 15.101550000000001
+Laser1: 1.146
+Laser2: 0.196
+
+Temps: 15.118200000000002
+Laser1: 1.166
+Laser2: 0.212
+
+Temps: 15.134850000000002
+Laser1: 1.198
+Laser2: 0.228
+
+Temps: 15.151500000000002
+Laser1: 1.198
+Laser2: 0.236
+
+Temps: 15.16815
+Laser1: 1.18
+Laser2: 0.248
+
+Temps: 15.184800000000001
+Laser1: 1.19
+Laser2: 0.288
+
+Temps: 15.201450000000001
+Laser1: 1.162
+Laser2: 0.232
+
+Temps: 15.218100000000002
+Laser1: 1.148
+Laser2: 0.188
+
+Temps: 15.234750000000002
+Laser1: 1.12
+Laser2: 0.172
+
+Temps: 15.251400000000002
+Laser1: 1.084
+Laser2: 0.248
+
+Temps: 15.268050000000002
+Laser1: 1.122
+Laser2: 0.204
+
+Temps: 15.2847
+Laser1: 1.144
+Laser2: 0.2
+
+Temps: 15.301350000000001
+Laser1: 1.166
+Laser2: 0.204
+
+Temps: 15.318000000000001
+Laser1: 1.134
+Laser2: 0.244
+
+Temps: 15.334650000000002
+Laser1: 1.158
+Laser2: 0.196
+
+Temps: 15.351300000000002
+Laser1: 1.12
+Laser2: 0.2
+
+Temps: 15.367950000000002
+Laser1: 1.104
+Laser2: 0.2
+
+Temps: 15.3846
+Laser1: 1.068
+Laser2: 0.26
+
+Temps: 15.401250000000001
+Laser1: 1.1
+Laser2: 0.248
+
+Temps: 15.417900000000001
+Laser1: 1.054
+Laser2: 0.196
+
+Temps: 15.434550000000002
+Laser1: 1.05
+Laser2: 0.172
+
+Temps: 15.451200000000002
+Laser1: 1.066
+Laser2: 0.172
+
+Temps: 15.467850000000002
+Laser1: 1.124
+Laser2: 0.172
+
+Temps: 15.484500000000002
+Laser1: 1.122
+Laser2: 0.164
+
+Temps: 15.50115
+Laser1: 1.182
+Laser2: 0.192
+
+Temps: 15.517800000000001
+Laser1: 1.166
+Laser2: 0.236
+
+Temps: 15.534450000000001
+Laser1: 1.136
+Laser2: 0.26
+
+Temps: 15.551100000000002
+Laser1: 1.052
+Laser2: 0.244
+
+Temps: 15.567750000000002
+Laser1: 1.06
+Laser2: 0.232
+
+Temps: 15.584400000000002
+Laser1: 1.068
+Laser2: 0.224
+
+Temps: 15.60105
+Laser1: 0.976
+Laser2: 0.192
+
+Temps: 15.617700000000001
+Laser1: 0.976
+Laser2: 0.172
+
+Temps: 15.634350000000001
+Laser1: 0.94
+Laser2: 0.168
+
+Temps: 15.651000000000002
+Laser1: 0.946
+Laser2: 0.22
+
+Temps: 15.667650000000002
+Laser1: 1.008
+Laser2: 0.22
+
+Temps: 15.684300000000002
+Laser1: 1.09
+Laser2: 0.22
+
+Temps: 15.70095
+Laser1: 1.12
+Laser2: 0.204
+
+Temps: 15.717600000000001
+Laser1: 1.054
+Laser2: 0.232
+
+Temps: 15.734250000000001
+Laser1: 1.078
+Laser2: 0.232
+
+Temps: 15.750900000000001
+Laser1: 1.026
+Laser2: 0.232
+
+Temps: 15.767550000000002
+Laser1: 1.082
+Laser2: 0.196
+
+Temps: 15.784200000000002
+Laser1: 1.036
+Laser2: 0.188
+
+Temps: 15.800850000000002
+Laser1: 1.064
+Laser2: 0.16
+
+Temps: 15.8175
+Laser1: 1.026
+Laser2: 0.164
+
+Temps: 15.834150000000001
+Laser1: 1.08
+Laser2: 0.184
+
+Temps: 15.850800000000001
+Laser1: 1.08
+Laser2: 0.268
+
+Temps: 15.867450000000002
+Laser1: 1.158
+Laser2: 0.26
+
+Temps: 15.884100000000002
+Laser1: 1.14
+Laser2: 0.244
+
+Temps: 15.900750000000002
+Laser1: 1.122
+Laser2: 0.228
+
+Temps: 15.9174
+Laser1: 1.008
+Laser2: 0.212
+
+Temps: 15.934050000000001
+Laser1: 1.054
+Laser2: 0.156
+
+Temps: 15.950700000000001
+Laser1: 1.008
+Laser2: 0.14
+
+Temps: 15.967350000000001
+Laser1: 1.064
+Laser2: 0.144
+
+Temps: 15.984000000000002
+Laser1: 1.07
+Laser2: 0.176
+
+Temps: 16.00065
+Laser1: 1.08
+Laser2: 0.26
+
+Temps: 16.017300000000002
+Laser1: 1.126
+Laser2: 0.276
+
+Temps: 16.03395
+Laser1: 1.096
+Laser2: 0.28
+
+Temps: 16.050600000000003
+Laser1: 1.046
+Laser2: 0.268
+
+Temps: 16.06725
+Laser1: 0.988
+Laser2: 0.224
+
+Temps: 16.0839
+Laser1: 1.06
+Laser2: 0.18
+
+Temps: 16.100550000000002
+Laser1: 1.076
+Laser2: 0.132
+
+Temps: 16.1172
+Laser1: 1.064
+Laser2: 0.188
+
+Temps: 16.133850000000002
+Laser1: 1.11
+Laser2: 0.244
+
+Temps: 16.1505
+Laser1: 1.13
+Laser2: 0.26
+
+Temps: 16.167150000000003
+Laser1: 1.12
+Laser2: 0.252
+
+Temps: 16.1838
+Laser1: 1.126
+Laser2: 0.264
+
+Temps: 16.20045
+Laser1: 1.146
+Laser2: 0.252
+
+Temps: 16.217100000000002
+Laser1: 1.108
+Laser2: 0.236
+
+Temps: 16.23375
+Laser1: 1.164
+Laser2: 0.232
+
+Temps: 16.250400000000003
+Laser1: 1.144
+Laser2: 0.24
+
+Temps: 16.26705
+Laser1: 1.176
+Laser2: 0.28
+
+Temps: 16.283700000000003
+Laser1: 1.132
+Laser2: 0.304
+
+Temps: 16.30035
+Laser1: 1.184
+Laser2: 0.268
+
+Temps: 16.317
+Laser1: 1.184
+Laser2: 0.26
+
+Temps: 16.333650000000002
+Laser1: 1.218
+Laser2: 0.304
+
+Temps: 16.3503
+Laser1: 1.194
+Laser2: 0.272
+
+Temps: 16.366950000000003
+Laser1: 1.182
+Laser2: 0.268
+
+Temps: 16.3836
+Laser1: 1.138
+Laser2: 0.272
+
+Temps: 16.400250000000003
+Laser1: 1.1
+Laser2: 0.288
+
+Temps: 16.416900000000002
+Laser1: 1.148
+Laser2: 0.256
+
+Temps: 16.43355
+Laser1: 1.092
+Laser2: 0.212
+
+Temps: 16.450200000000002
+Laser1: 1.2
+Laser2: 0.224
+
+Temps: 16.46685
+Laser1: 1.208
+Laser2: 0.292
+
+Temps: 16.483500000000003
+Laser1: 1.222
+Laser2: 0.308
+
+Temps: 16.50015
+Laser1: 1.226
+Laser2: 0.332
+
+Temps: 16.5168
+Laser1: 1.204
+Laser2: 0.348
+
+Temps: 16.533450000000002
+Laser1: 1.188
+Laser2: 0.344
+
+Temps: 16.5501
+Laser1: 1.184
+Laser2: 0.296
+
+Temps: 16.566750000000003
+Laser1: 1.186
+Laser2: 0.244
+
+Temps: 16.5834
+Laser1: 1.162
+Laser2: 0.24
+
+Temps: 16.600050000000003
+Laser1: 1.228
+Laser2: 0.268
+
+Temps: 16.6167
+Laser1: 1.27
+Laser2: 0.276
+
+Temps: 16.63335
+Laser1: 1.256
+Laser2: 0.288
+
+Temps: 16.650000000000002
+Laser1: 1.212
+Laser2: 0.324
+
+Temps: 16.66665
+Laser1: 1.168
+Laser2: 0.368
+
+Temps: 16.683300000000003
+Laser1: 1.21
+Laser2: 0.332
+
+Temps: 16.69995
+Laser1: 1.246
+Laser2: 0.296
+
+Temps: 16.716600000000003
+Laser1: 1.26
+Laser2: 0.304
+
+Temps: 16.73325
+Laser1: 1.256
+Laser2: 0.336
+
+Temps: 16.7499
+Laser1: 1.252
+Laser2: 0.328
+
+Temps: 16.766550000000002
+Laser1: 1.238
+Laser2: 0.312
+
+Temps: 16.7832
+Laser1: 1.27
+Laser2: 0.308
+
+Temps: 16.799850000000003
+Laser1: 1.234
+Laser2: 0.348
+
+Temps: 16.8165
+Laser1: 1.196
+Laser2: 0.368
+
+Temps: 16.833150000000003
+Laser1: 1.236
+Laser2: 0.356
+
+Temps: 16.849800000000002
+Laser1: 1.244
+Laser2: 0.356
+
+Temps: 16.86645
+Laser1: 1.216
+Laser2: 0.356
+
+Temps: 16.883100000000002
+Laser1: 1.242
+Laser2: 0.332
+
+Temps: 16.89975
+Laser1: 1.28
+Laser2: 0.34
+
+Temps: 16.916400000000003
+Laser1: 1.254
+Laser2: 0.308
+
+Temps: 16.93305
+Laser1: 1.294
+Laser2: 0.312
+
+Temps: 16.9497
+Laser1: 1.27
+Laser2: 0.328
+
+Temps: 16.966350000000002
+Laser1: 1.238
+Laser2: 0.36
+

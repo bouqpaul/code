@@ -1,0 +1,52 @@
+/** pour les entreees-sorties */
+import java.io.*;
+
+/** exemple de lecture de caracteres dans un fichier */
+public class FileReaderExample 
+{
+  public static void main(String args[]) 
+  {
+    // nom du fichier
+    String nomFichier;
+    // objet permettant de lire dans le fichier
+    FileReader lecteur = null;
+    // tableau de caracteres permettant de stocker les donnees
+    char data[] = new char[1024];
+    // nombre de caracteres lus
+    int carlus = 0;
+
+    if (args.length == 0)
+      nomFichier = "fic.txt";
+    else
+      nomFichier = args[0];
+
+    try {
+      // ouverture du fichier
+      lecteur = new FileReader(nomFichier);
+    } catch (FileNotFoundException e) {
+      // affichage d'une erreur en cas d'ouverture impossible
+      System.out.println("Ouverture du fichier "+nomFichier+" impossible");
+      System.out.println(e);
+    }
+
+    try {
+      // lecture dans le fichier : voir la doc de FileReader
+      carlus = lecteur.read(data);
+      // carlus = lecteur.read(data, 10, 10);
+    } catch (IOException e) {
+      System.out.println("Erreur de lecture");
+      System.out.println(e);
+    }
+
+    System.out.println("lecture de " + carlus + "caracteres");
+    // affichage des caracteres lus
+    System.out.println(data);
+
+    try {
+      // fermeture du fichier
+      lecteur.close();
+    } catch (IOException e) {
+      System.out.println(e);
+    }
+  }
+}

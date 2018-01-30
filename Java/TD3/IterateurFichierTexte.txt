@@ -1,0 +1,115 @@
+import java.util.Iterator;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.NoSuchElementException;
+import java.io.IOException;
+
+
+/** iterateur de fichier : s'appuie sur BufferedReader 
+ * implemente la classe Iterator
+ *
+ * cette classe peut etre reprise pour lire des fichiers texte tres simplement
+ * necessite Java 1.5
+ */
+class IterateurFichierTexte implements Iterator<String>
+{
+  /** objet permettant la lecture du fichier */
+  private BufferedReader lecteur;
+  /** stockage de la ligne suivante : necessaire pour la methode hasNext */
+  private String ligneSuivante;
+
+  /** constructeur : cree un iterateur sur un certain nom de fichier */
+  public IterateurFichierTexte(String fic)
+  {
+    // initialiser le lecteur a null
+    lecteur = null;
+    try {
+      // creation du lecteur de fichier 
+      lecteur = new BufferedReader(new FileReader(fic));
+      // init de la ligne suivante
+      ligneSuivante = lecteur.readLine();
+    } catch (IOException e) {
+      System.out.println(e);
+      ligneSuivante = null;
+    }
+  }
+
+  /** test d'existance d'une ligne suivante dans le fichier */
+  public boolean hasNext()
+  {
+    return ligneSuivante != null;
+  }
+
+  /** recuperer la ligne suivante du fichier */
+  public String next()
+  {
+    String res = ligneSuivante;
+    try {
+      // plus d'elements : lever une exception
+      if (ligneSuivante == null)
+	throw new NoSuchElementException();
+
+      // lire la ligne suivante 
+      ligneSuivante = lecteur.readLine();
+
+      // fermeture du fichier 
+      if (ligneSuivante == null)
+	lecteur.close();
+    } catch (IOException e) {
+      System.out.println(e);
+      ligneSuivante = null;
+    }
+
+    // retourner la ligne precedente
+    return res;
+  }
+
+  /** non supportee */
+  public void remove()  
+  { 
+    // methode non supportee : lever l'exception UnsupportedOperationException
+    // (voir doc de l'interface Iterator)
+    throw new UnsupportedOperationException();  
+  }
+}
+
+/** classe permettant de lire des fichiers texte ligne a ligne
+ * cette classe supporte des iterations
+ * 
+ * exemple d'utilisation de la classe IterateurFichierTexte
+ */
+public class LecteurFichierTexte implements Iterable<String>
+{
+  /** nom du fichier lu par l'objet */
+  private String nomFichier;
+
+  public LecteurFichierTexte(String fic)
+  {
+    nomFichier = fic;
+  }
+
+  /** methode de l'interface Iterable a redefinir : 
+   * creation d'un iterateur de fichier */
+  public Iterator<String> iterator() 
+  { 
+    // instancier un iterateur de type IterateurFichierTexte
+    return new IterateurFichierTexte(nomFichier); 
+  }
+
+  public static void main(String args[])
+  {
+    if (args.length == 0)
+      {
+	System.out.println("Entrer un nom de fichier en parametre");
+	System.exit(1);
+      }
+
+    // parcourir la liste des parametres passes au main a l'aide d'un iterateur
+    for (String nomFic : args)
+      // parcourir le fichier courant ligne a ligne
+      for(String ligne : new LecteurFichierTexte(nomFic))
+	// affichage de la ligne
+	System.out.println(ligne);
+
+  }
+}

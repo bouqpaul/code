@@ -1,0 +1,16 @@
+text: 200, 280, Ligne
+// commentaire
+
+line: 200, 300, 200, 500
+
+text: 300, 280, Arc
+arc:  300, 300, 350, 350, 300, 400
+
+// autre commentaire
+text: 400, 280, Oval
+oval: 400, 300, 80, 200
+
+text: 500, 280, Rectangle
+rect: 500, 300, 100, 200
+
+toto: 200, 300, 555

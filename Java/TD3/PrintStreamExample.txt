@@ -1,0 +1,39 @@
+// pour les entreees-sorties
+import java.io.*;
+
+/** exemple de lecture de caracteres dans un fichier 
+ * en utilisant un PrintStream */
+public class PrintStreamExample 
+{
+  public static void main(String args[]) 
+  {
+    // nom du fichier
+    String nomFichier;
+    // fichier
+    File monFic;
+    PrintStream ecrivain = null;
+
+    if (args.length == 0)
+      nomFichier = "fic.txt";
+    else
+      nomFichier = args[0];
+
+    // ouverture du fichier
+    monFic = new File(nomFichier);
+
+    try {
+      // ouverture du BefferedReader par dessus le fichier
+      ecrivain = new PrintStream(new FileOutputStream(monFic));
+    } catch (FileNotFoundException e) {
+      System.out.println(e);
+    }
+
+    String message="Un exemple de message a ecrire dans un fichier.";
+
+    ecrivain.println(message);
+    ecrivain.print(message);
+    ecrivain.println(message);
+
+    ecrivain.close();
+  }
+}

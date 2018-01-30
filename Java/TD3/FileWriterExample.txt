@@ -1,0 +1,51 @@
+// pour les entreees-sorties
+import java.io.*;
+
+/** exemple d'ecriture de caracteres dans un fichier */
+public class FileWriterExample 
+{
+  public static void main(String args[]) 
+  {
+    // nom du fichier
+    String nomFichier;
+    String message="Une chaine de caracteres.\n";
+    // tableau de caracteres a ecrire dans le fichier
+    char data[] = message.toCharArray();
+    // fichier
+    FileWriter ecrivain = null;
+
+    if (args.length == 0)
+      nomFichier = "fic.txt";
+    else
+      nomFichier = args[0];
+
+    try {
+      // ouverture du fichier
+      ecrivain = new FileWriter(nomFichier);
+    } catch (IOException e) {
+      System.out.println("Ouverture du fichier "+nomFichier+" impossible");
+      System.out.println(e);
+    }
+
+    try {
+      // 1ere methode d'ecriture : caractere par caractere
+      for (int i= 0; i < data.length; i++) 
+	{
+	  ecrivain.write(data [i]);
+	}
+      
+      // 2eme methode d'ecriture : tout le tableau
+      ecrivain.write(data);
+      
+      // 3eme methode d'ecriture : utilisation de String
+      ecrivain.write(message);
+      
+      // ecrire une partie du tableau
+      ecrivain.write(data, 5, 10);
+
+      ecrivain.close();
+    } catch (IOException e) {
+      System.out.println(e);
+    }
+  }
+}
