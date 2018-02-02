@@ -1,162 +1,45 @@
 # -*- coding: utf-8 -*-
-import timeit, time
+import time
+import Fonctions as ff
 
-def init():
-    global running, pc
-    running = 0
-    pc = 0
-
-pc = 0
-running = 1
-
-##############################################################"
-regs = [0 for i in range(32)] #Nombre de registres
-mem = [0 for i in range(32)]#Nombre d'espace mémoire
-
-
-def xor(r1, imm, o, r2):
-    if not imm:
-        o = regs[o]
-    regs[r2] = o ^ regs[r2]
-
-def shl(r1, imm, o, r2):
-    if not imm:
-        o = regs[o]
-    regs[r2] = regs[r1] << o
-
-def shr(r1, imm, o, r2):
-    if not imm:
-        o = regs[o]
-    regs[r2] = regs[r2] >> o
-
-def slt(r1, imm, o, r2):
-    if not imm:
-        o = regs[o]
-
-    if regs[r1] < o:
-        regs[r2] = 1
-    else:
-        regs[r2] = 0
-
-def sle(r1, imm, o, r2):
-    if not imm:
-        o = regs[o]
-
-    if regs[r1] <= o:
-        regs[r2] = 1
-    else:
-        regs[r2] = 0
-
-def seq(r1, imm, o, r2):
-    if not imm:
-        o = regs[o]
-#    print("Je compare {} à {}".format(regs[r1], o))
-    if regs[r1] == o:
-        regs[r2] = 1
-
-    else:
-        regs[r2] = 0
-
-def load(r1, imm, o, r2):
-    if not imm:
-        o = regs[o]
-    regs[r2] = mem[r1 + o]
-
-
-def store(r1,imm,  o, r2):
-    if not imm:
-        o = regs[o]
-    mem[r1 + o] = regs[r2]
-
-
-def jmp(imm, o, r):
-    if not imm:
-        o = regs[o]
-    adresseJmp = o - 1
-    regs[r] = pc + 1
-    return adresseJmp
-
-def braz(r, a):
-    if regs[r] == 0:
-        adresseJump = a
-        return adresseJump
-
-def branz(r, a):
-    if regs[r] != 0:
-        return a
-
-def scall(n):
-    if n:
-        print(regs[1])
-    else:
-        temp = input("Valeur à mettre dans le registre R1 : ")
-        regs[1] = int(temp)
-
-def add(reg1, imm, o, reg2):
-    if imm == 1:
-        regs[reg2] = o + regs[reg1]
-    else:
-        regs[reg2] =  regs[reg1] + regs[o]
-
-def sub(reg1, imm, o, reg2):
-    if imm == 1:
-        regs[reg2] =  regs[reg1] - o
-
-    else:
-        regs[reg2] =  regs[reg1] - regs[o]
-
-def stop(running):
-    return "STOP"
-
-def div(reg1, imm, o, reg2):
-    if not imm:
-        o = regs[o]
-
-    try:
-        regs[reg2] = regs[reg1] // o
-    except ZeroDivisionError:
-        print("Division par zéro.")
-
-def mult(reg1, imm, o, reg2):
-    if imm == 1:
-        regs[reg2] = regs[reg1] * o
-    else:
-        regs[reg2] = regs[reg1] * regs[o]
-
-def And(reg1, imm, o, reg2):
-    if imm == 1:
-        regs[reg2] = regs[reg1] & o
-    else:
-        regs[reg2] = regs[reg1] & regs[o]
-
-def Or(reg1, imm, o, reg2):
-    if imm == 1:
-        regs[reg2] = regs[reg1] | o
-    else:
-        regs[reg2] = regs[reg1] | regs[o]
 #######################################################################
 
-def bin2hex(liste):
-    tmp = ["0" for i in range(32)]
-    for indice in liste:
-        tmp[indice] = "1"
-    binaire = hex(int("".join(tmp[::-1]), 2))
-    return binaire
+#def bin2hex(liste):
+#    tmp = ["0" for i in range(32)]
+#    for indice in liste:
+#        tmp[indice] = "1"
+#    binaire = hex(int("".join(tmp[::-1]), 2))
+#    return binaire
+######################################################################
 
 def decodeStop(instr, running, *args):
+    """
+    Décode l'appel à la fonction  stop.
+    Renvoie 0 pour signifier la fin du programme et l'arrêt de la machine.
+    """
     return (running,)
 
 def decodeScall(instr, *args):
+    """
+    Décode l'appel à la fonction scall.
+    Renvoie le numéro de l'appel système.
+    """
     n = (instr & 0x7ffffff)
     return (n,)
 
 
 def decode3Braz(instr, *args):
+    """
+    Décode l'appel à la fonction Braz et Branz.
+    """
     r = (instr & 0x7c00000) >> 22
     a = (instr & 0x3fffff)
     return (r, a)
 
 def decode3Jmp(instr, *args):
+    """
+    Décode l'appel à la fonction jmp.
+    """
     imm = (instr & 0x4000000) >> 26
     o = (instr & 0x3ffffe0) >> 5
     r = (instr & 0x1f)
@@ -164,50 +47,63 @@ def decode3Jmp(instr, *args):
 
 
 def decode4(instr, *args):
+    """
+    Décode l'appel à l'ensemble des fonctions ayant 4 arguments.
+    Par exemple, add, sub, mult, ...
+    """
     reg1 = (instr & 0x07C00000) >> 22
     imm = (instr & 0x00200000) >> 21
     o = (instr & 0x001FFFE0) >> 5
     reg2 = (instr & 0x0000001F)
     return (reg1, imm, o, reg2)
 
+
+## Regroupement des fonctions comptant pour 2 cycles
+## mult, div, braz, branz, jmp
 deux = [3, 4, 15, 16, 17]
 cycle = {i : 2 for i in deux}
 
-switch = {0     : stop,
-          1     : add,
-          2     : sub,
-          3     : div,
-          4     : mult,
-          5     : And,
-          6     : Or,
-          7     : xor,
-          8     : shl,
-          9     : shr,
-          10    : slt,
-          11    : sle,
-          12    : seq,
-          13    : load,
-          14    : store,
-          15    : jmp,
-          16    : braz,
-          17    : branz,
-          18    : scall
+
+## Dictionnaire associant le numéro d'instructions à la fonction correspondante
+switch = {0     : ff.stop,
+          1     : ff.add,
+          2     : ff.sub,
+          3     : ff.div,
+          4     : ff.mult,
+          5     : ff.And,
+          6     : ff.Or,
+          7     : ff.xor,
+          8     : ff.shl,
+          9     : ff.shr,
+          10    : ff.slt,
+          11    : ff.sle,
+          12    : ff.seq,
+          13    : ff.load,
+          14    : ff.store,
+          15    : ff.jmp,
+          16    : ff.braz,
+          17    : ff.branz,
+          18    : ff.scall
           }
 
+
 def evaluation(pc, running, instrNum, *args):
+    """
+    Évalue la fonction appelée suivant le numéro d'instruction.
+    Renvoie également le nombre de cycle de cette fonction.
+    """
     tmpFct = switch[instrNum]
-#    print(perf)
     try:
         tmpPerf = cycle[instrNum]
-#        print("PERF FUNCT : ", performance[instrNum])
 
     except KeyError:
-#        print("PERF FUNCT : ", 1)
         tmpPerf = 1
-#    print("PERF AP / ", perf)
-#    print("APPEL FCT : ", tmpFct.__name__, " || PC = ", pc)
+
     return tmpFct(*args), tmpPerf
 
+
+## Dictionnaire regroupant les fonctions "spéciales",
+## c'est-à-dire, des fonctions ne prenant pas 4 arguments.
 executionDict = {0  : decodeStop,
                  15 : decode3Jmp,
                  16 : decode3Braz,
@@ -215,9 +111,15 @@ executionDict = {0  : decodeStop,
                  18 : decodeScall
                  }
 
-def execution(pathBinaire, running):
+def fetch(pathBinaire, running):
+    """
+    Transforme les instructions hexadécimal contenues dans le fichier
+    qui se trouve au chemin passé en argument.
+    Renvoie le programme décodé dans la liste program.
+    Chaque fonctions est associée à une ligne.
+    """
     program = []
-    with open("binaire.txt", "r") as f:
+    with open(pathBinaire, "r") as f:
         for lines in f.readlines():
             chiffLigne = int(lines, 16)
             instrNum = (chiffLigne & 0xF8000000) >> 27
@@ -231,21 +133,16 @@ def execution(pathBinaire, running):
 
     return program
 
-def fetch(program, pc, running):
-#    tmp = []
-#    for tt in program:
-#        tmp.append(switch[tt[0]].__name__)
-#    print(tmp)
-#    print(program)
+def execution(program, pc, running):
+    """
+    Exécute l'ensemble des fonctions contenues dans la liste program.
+    """
     cycle = 0
     while running:
-#        print("REGS : ", regs)
-#        print("RUNNING = ", running)
-#        print("REGS 1 : ", regs[1])
         elt = program[pc]
         temp, tmpPerf = evaluation(pc, running, *elt)
         cycle += tmpPerf
-#        print("PC : ", pc)
+
         if temp == "STOP":
             running = 0
 
@@ -254,24 +151,26 @@ def fetch(program, pc, running):
 
         else:
             pc += 1
-#    print("PERFORMANCE : ", cycle)
+
     return cycle
+
+
+def calcPerf(pathBinaire, running, pc, nbrExe):
+    """
+    Calcule la performance de l'ISS et fait la moyenne sur nbrExe nombre d'exécution.
+    """
+    program = fetch(pathBinaire, running)
+    performance = []
+    for i in range(nbrExe):
+        debut = time.time()
+        cycles = execution(program, pc, running)
+        fin = time.time() - debut
+        performance.append(cycles / fin)
+
+    Moy = sum(performance) / len(performance)
+    return Moy
 
 if __name__ == "__main__":
 
-    program = execution("binaire.txt", running)
-    performance = []
-    for i in range(1000):
-        debut = time.time()
-    #    toto = timeit.timeit("fetch(program, pc, running)", setup="from ISS import fetch;from ISS import execution;running=0;pc=0;program = execution('binaire.txt', running)")
-    #    print("TIMEIT : ", toto)
-        cycles = fetch(program, pc, running)
-        fin = time.time() - debut
-#        print("TEMPS : ", fin)
-#        print("CYCLES : ", cycles)
-#        print("durée : ", temps)
-        performance.append(cycles / fin)
-#        print("PERFORMANCE : ", cycles / temps)
 
-    Moy = sum(performance)/len(performance)
-    print("PERF MOY  : ", Moy)
+    print("PERF MOY  : ", calcPerf("binaire.txt", ff.running, ff.pc, 1000))

@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 
 def nombreOuRegistre(reg):
+    """
+    Détermine si le mot reg désigne un registre ou une valeur immédiate
+    """
     if reg[0] == "R" or reg[0] == "r":
         return (0, int(reg[1:]))
 
@@ -9,6 +12,10 @@ def nombreOuRegistre(reg):
         return (1, int(reg))
 
 def quatreTermes(liste, instructionBin):
+    """
+    Gère l'encodage des fonctions ayant 4 arguments.
+    Par exemple, add, sub, ...
+    """
     instructionBin += int(liste[1][1:]) << 22
 
     tup = nombreOuRegistre(liste[2])
@@ -19,6 +26,10 @@ def quatreTermes(liste, instructionBin):
     return instructionBin
 
 def troisTermes(liste, instructionBin):
+    """
+    Gère l'encodage des fonctions ayant 3 arguments.
+    Par exemple, jmp
+    """
     if liste[0] == "JMP":
         tup = nombreOuRegistre(liste[1])
         instructionBin += tup[0] << 26
@@ -32,12 +43,20 @@ def troisTermes(liste, instructionBin):
     return instructionBin
 
 def codeScall(liste, instructionBin):
+    """
+    Gère l'encodage de la fonction scall.
+    """
     instructionBin += int(liste[1])
     return instructionBin
 
 def codeStop(liste, instructBin):
+    """
+    Gère l'encodage de la fonction stop.
+    """
     return instructBin
 
+
+# Dictionnaire qui regroupe les fonctions par nombre d'arguments
 instructionsDict = {1:codeStop,
                     2:codeScall,
                     3:troisTermes,
@@ -45,6 +64,11 @@ instructionsDict = {1:codeStop,
                     }
 
 def parser(pathFichierInstructions):
+    """
+    Parse le fichier situé au chemin passé en argument.
+    Transforme les instructions humaines en instructions machine,
+    c'est-à-dire, des nombres hexadécimaux.
+    """
     resultat = []
     label = {}
     with open(str(pathFichierInstructions), "r") as f:
@@ -53,7 +77,6 @@ def parser(pathFichierInstructions):
         for i in range(len(fichier)):
             lines = fichier[i]
             temp = lines.strip("\n").split(" ")
-#            print("TEMP1  : ", temp)
             if temp[0] != "":
                 if temp[0][0] == "$":
                     try:
@@ -65,40 +88,8 @@ def parser(pathFichierInstructions):
             else:
                 continue
 
-
-#        for i in range(len(fichier)):
-#            lines = fichier[i]
-#            temp = lines.strip("\n").split(" ")
-#            print("EE : ", temp)
-#            for i in range(len(temp)):
-#                try:
-#                    label[temp[i]]
-#                    temp[i] = label[temp[i]]
-#                except KeyError:
-##                    continue
-#        print("LABEL : ", label)
-#        print("EREFR : ", fichier)
-
-
-#        for j in range(len(fichier)):try:
-
-#            lines = fichier[j]
-##            print("LL ", lines, " J = ", j)
-#            temp = lines.strip("\n").split(" ")
-#            if lines in ["\n"]:
-#                continue
-##            print("TEMP : ", temp[0])
-#            for elt in temp:
-#                if elt[0] == "$":
-#                    try:
-#                        label[elt]
-#                    except KeyError:
-#                        label[elt] = str(j)
-#        print("LABEL : ", label)
-#        print("FICHIER : ", fichier)
         for i in range(len(fichier)):
             lines = fichier[i]
-#            print("LINES : ", lines)
             if lines in ["\n"]:
                 continue
 
@@ -111,13 +102,11 @@ def parser(pathFichierInstructions):
                 if temp[i] in label.keys():
                     temp[i] = label[temp[i]]
 
-#            print("FUNCT : ", temp)
             funct = switch[temp[0]]
             instructionBin = 0
             instructionBin += funct << 27
 
             nbrArgs = len(temp)
-#            print(temp)
             try:
                 instructionBin = instructionsDict[nbrArgs](temp, instructionBin)
 
@@ -125,14 +114,19 @@ def parser(pathFichierInstructions):
                 continue
 
             resultat.append(hex(instructionBin))
-    print(label)
     return resultat
 
 def writer(pathFichierBin, resultat):
+    """
+    Écrit les résultat du parser dans un fichier situé au chemin passé en argument.
+    """
     with open(str(pathFichierBin), "w") as f:
         for instru in resultat:
             f.write(str(instru)+"\n")
 
+
+## Dictionnaire permettant de faire la correspondance entre
+## les fonctions et les instructions machines
 switch = {"STOP"    : 0,
           "ADD"     : 1,
           "SUB"     : 2,
@@ -154,6 +148,7 @@ switch = {"STOP"    : 0,
           "SCALL"   : 18
           }
 
-pathFichierInstructions = "instructions.txt"
-parse = parser(pathFichierInstructions)
-writer("binaire.txt", parse)
+if __name__ == "__main__":
+    pathFichierInstructions = "syra.txt"
+    parse = parser(pathFichierInstructions)
+    writer("binaire.txt", parse)
