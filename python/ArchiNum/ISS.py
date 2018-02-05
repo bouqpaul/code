@@ -172,5 +172,4 @@ def calcPerf(pathBinaire, running, pc, nbrExe):
 
 if __name__ == "__main__":
 
-
     print("PERF MOY  : ", calcPerf("binaire.txt", ff.running, ff.pc, 1000))
