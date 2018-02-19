@@ -1,1 +1,8 @@
-__pycache__
+##Python
+__pycache_
+
+## Latex
+*.aux
+*.log
+*.toc
+*.lof
