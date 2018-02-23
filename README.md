@@ -13,4 +13,4 @@ Projects written in Matlab
 Projects written in JAVA
 
 ## Latex
-Workds written in Latex
+Works written in Latex

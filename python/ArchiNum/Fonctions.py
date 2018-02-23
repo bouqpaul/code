@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+import numpy as np
 regs = [0 for i in range(32)] #Nombre de registres
 mem = [0 for i in range(32)]#Nombre d'espace mémoire
 
 pc = 0
 running = 1
+
+def log(nbr, base):
+    res = np.log(nbr) / np.log(base)
+    if res.is_integer():
+        res = int(res)
+    return res
 
 
 def xor(r1, imm, o, r2):
@@ -44,7 +50,6 @@ def sle(r1, imm, o, r2):
 def seq(r1, imm, o, r2):
     if not imm:
         o = regs[o]
-#    print("Je compare {} à {}".format(regs[r1], o))
     if regs[r1] == o:
         regs[r2] = 1
 
