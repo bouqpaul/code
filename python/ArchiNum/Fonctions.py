@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+<<<<<<< HEAD
 import numpy as np
 regs = [0 for i in range(32)] #Nombre de registres
 mem = [0 for i in range(32)]#Nombre d'espace mémoire
+=======
+
+regs = [0 for i in range(32)]   #Nombre de registres
+mem = [0 for i in range(32)]    #Nombre d'espace mémoire
+>>>>>>> 4b996067beaab4b0c7fbb5e801f4d5db5e4be804
 
 pc = 0
 running = 1
@@ -59,12 +65,14 @@ def seq(r1, imm, o, r2):
 def load(r1, imm, o, r2):
     if not imm:
         o = regs[o]
+        
     regs[r2] = mem[r1 + o]
 
 
 def store(r1,imm,  o, r2):
     if not imm:
         o = regs[o]
+        
     mem[r1 + o] = regs[r2]
 
 
