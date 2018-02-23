@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 
-
-
-
 class BadTag(Exception):
     def __init__(self, message):
         Exception.__init__(self, message)
