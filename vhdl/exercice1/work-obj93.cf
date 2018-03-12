@@ -1,0 +1,4 @@
+v 4
+file . "exercice1.vhdl" "3e680bad2db029148d779a2d8c64700521864e80" "20180312100717.699":
+  entity bascule at 1( 0) + 0 on 11;
+  architecture using_rising_edge of bascule at 14( 268) + 0 on 12;
