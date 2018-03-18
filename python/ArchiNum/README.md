@@ -8,7 +8,8 @@ Une brève introduction s'impose, tirée du [moodle de l'ENSTA] :
 Utilisez le fichier main.py pour changer le chemin du fichier d'instruction et l'endroit pour sauvegarder les instructions machines.  
 Vous pouvez trouver l'ensemble des fonctions disponible de l'ISS dans le fichier Fonctions.py.  
 Nous avons essayé de reproduire le plus fidèlement possible le langage assembleur.  
-Un calcul moyen de performance sera effectué. Par défaut, la moyenne est faite sur 1000 tests.
+Un calcul moyen de performance sera effectué. Par défaut, la moyenne est faite sur 1000 tests.  
+Un fichier simulant la suite de syracuse est disponible dans le fichier syra.txt.
 
 ## Comment notre ISS fonctionne-t-il ?
 
