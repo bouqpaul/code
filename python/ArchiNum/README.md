@@ -1,8 +1,3 @@
----
-title: README_BOUQUET_CLAVIER
-output: pdf_document
----
-
 # Architecture numérique et compilation
 
 Une brève introduction s'impose, tirée du [moodle de l'ENSTA] :
