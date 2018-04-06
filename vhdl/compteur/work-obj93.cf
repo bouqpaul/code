@@ -1,0 +1,7 @@
+v 4
+file . "compteur.vhd" "5641b360c9821aa170a24f19761270a76b42334b" "20180319103748.903":
+  entity compteur at 1( 0) + 0 on 11;
+  architecture top of compteur at 16( 262) + 0 on 12;
+file . "compteur_tb.vhd" "ddee23769dff9243d35ba3d28c8a634852b0aedb" "20180319103923.094":
+  entity compteur_tb at 6( 274) + 0 on 15;
+  architecture bhv of compteur_tb at 13( 379) + 0 on 16;
