@@ -1,7 +1,12 @@
 import sys
 import argparse
 from lexer import Lexer
+
+
 from paparser import Parser
+#from poposer import Parser
+
+
 from totoken import Token
 
 
@@ -24,7 +29,15 @@ if __name__ == '__main__':
 
     lexer = Lexer()
     tokens = lexer.lex(testFileData)
-
+#
     verbose = True
     parser = Parser(verbose)
+#    parser.parse("test.c")
     parser.parse(tokens)
+    
+    
+    
+    
+#    verbose = True
+#    parser = Parser(verbose)
+#    parser.parse("test.c")

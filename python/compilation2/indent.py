@@ -1,4 +1,4 @@
-class Indent:
+class Indent(object):
 
     INDENT = 2
 
@@ -17,12 +17,12 @@ class Indent:
         self.indentation -= self.INDENT
 
     def say(self, text):
-        output = ''
-        if (self.indentation > 0):
-            output += " " * self.indentation
+#        output = ''
+#        if (self.indentation > 0):
+        output = " " * self.indentation + text
 #            for i in range(1, self.indentation):
 #                output += ' '
 
-        output += text
+#        output += text
         if self.verbose:
             print(output)
