@@ -2,6 +2,22 @@ import re
 import sys
 from totoken import Token
 
+
+regexTypeExpressions = [
+        (r'int\b', 'INT'),
+        (r'char\b', 'CHAR'),
+        (r'short\b', 'SHORT'),
+        (r'long\b', 'LONG'),
+        (r'float\b', 'FLOAT'),
+        (r'double\b', 'DOUBLE')
+        ]
+
+regexStatementStartExpressions = [
+
+
+
+        ]
+
 regexExpressions = [
     (r'[ \n\t]+', None),
     (r'#[^\n]*', None),

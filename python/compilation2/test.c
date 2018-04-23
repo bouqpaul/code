@@ -1,5 +1,8 @@
 // test comment
 int main(){
 
-    int a,b,t[100];
+    int a;
+    a = 1;
+
+
 }

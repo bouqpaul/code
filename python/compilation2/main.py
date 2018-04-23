@@ -17,6 +17,7 @@ if __name__ == '__main__':
     try:
         with open(testFileName, 'r') as testFile:
             testFileData = testFile.readlines()
+
     except FileNotFoundError:
         print('Error: test file {} does not exist'.format(testFileName))
         sys.exit()
