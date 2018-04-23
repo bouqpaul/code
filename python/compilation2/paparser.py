@@ -95,8 +95,8 @@ class Parser:
         while(self.show_next().kind in self.TYPE):
             self.parse_declaration()
 
-        while(self.show_next().kind in self.STATEMENT_STARTERS):
-            self.parse_statement()
+#        while(self.show_next().kind in self.STATEMENT_STARTERS):
+#            self.parse_statement()
 
         self.indentator.dedent()
 
