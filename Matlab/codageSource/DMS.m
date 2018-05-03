@@ -1,4 +1,4 @@
-function [msg] = DMS(A, P, m, n)
+ function [msg] = DMS(A, P, m, n)
 
 msg = randsrc(n, m, [A; P]);
 
