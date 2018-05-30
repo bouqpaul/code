@@ -10,3 +10,7 @@ __pycache__/
 *.toc
 *.lof
 *.pdf
+## Strange file with Latex
+*.fls
+*.gz
+*.fdb_latexmk
