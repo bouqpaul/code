@@ -1,3 +1,3 @@
 # Compilation
 
-You can compile those texts with pdflatex.
+You can compile those texts with ```pdflatex```.
