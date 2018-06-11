@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+Shift from general-purpose computers to dedicated resource-constrained devices
+The shift from desktop computers to small devices brings a wide range of new security and privacy concerns.
+
+Lack of crypto standards that are suitable for constrained devices
+There are several emerging areas in which highly constrained devices are interconnected, working in concert to accomplish some task.
+Examples of these areas include: automotive systems, sensor networks,  healthcare,  distributed  control  systems,
+the  Internet  of  Things (IoT),  cyber-physical systems,  and  the  smart  grid.
+On the lower end of the spectrum are devices such as embedded systems, RFID devices and sensor networks.
+Lightweight cryptography is primarily focused on the highly-constrained devices that can be found at this end of the spectrum.
+
+pas assez de puissance de calcul/énergie dispo => temps de calcul/energie dépensée trop important.
+on cherche des algo avec peu de GE mais aussi timing and power requirements.
+
+Of course it’s hard to get a handle on block cipher performance on devices that don’t yet exist
+
+
+
+\section{Chiffrement de flux}
+
+Stream Ciphers
+A5/1 = 2G GSM protocol still uses this algorithm
+Satellite phones
+Crypto-1 It is a stream cipher used by the Mifare classic line of smartcards of nxp
+
+Content Scrambling System (Css) In order to implement Digital Rights Managements (DRMs), the content of dvd discs is encrypted.
+This encryption used to be performed with a stream cipher called Css
+Csa-SC digital television broadcas
+
+\section{Chiffremment par bloc}
+
+Depuis 2012, pour permettre son utilisation au sein du gouvernement américain et leurs différentes agences et permet d'avoir des niveaux acceptable de sécurité.
+optimize(for software applications) by NSA for IOT (Internet Of Things)
+add-rotate-xor cipher
+chiffrage par bloc
+Pas de standarsisation par l'ISO, pas de confiance en la NSA, preuves partielles de faiblesse
+La NSA a déjà poussé la standardisation d'un algo de chiffrage avec des "backdoor" (Dual EC DRBG).
+
+Simon and Speck are lightweight block cipher families developed by the U.S. National Security Agency for high performance in constrained hardware and software environment
+
+Simon and Speck have compelling advantages for high-throughput ASIC applications
+Of course it’s hard to get a handle on block cipher performance on devices that don’t yet exist
+Peut être implémenté sur des microcontrolleurs 8 bits.
+Le but de l'algo Speck est d'obtenir des performances et un niveau de sécurité acceptable.
+Il a été optimisé pour une application logicielle et matérielle.
+constrained devices
+NIST is considering applications of lightweight cryptography for sensor networks, healthcare and the smart grid.
+NASA has expanding programs for small satellites such as CubeSats which may need lightweight algorithms.
+Finally, Linux added SPECK support for efficient, opportunistic encryption on low-resource devices to the kernel in February 2018.
+
+Simon and Speck are also unique among existing lightweight block ciphers in their support for a broad 12 range of block and key sizes, allowing the cryptography to be precisely tuned to a particular application.
+
+This can involve optimizing with respect to the instruction set for a certain microcontroller, or designing algorithms for a particular ASIC application (e.g., with hard-wired key or for IC printing), or designing specifically for low-latency applications, and so on.
+
+
+Simon and Speck aim to be the sort of generalist block ciphers that we think will be required for future applications in the IoT era.
+
+Many of the sensors, actuators and other micromachines that will function as eyes, ears and hands in IoT networks.
+
+
+Block Ciphers
+Cryptomeria “C2” in the literature to be used by things”,
+namely dvd players (in which case it can be seen as a successor of Css) and some SD cards
+
+\section{Conclusion}
+Moreover, as noted in [11], many of these devices will interact with a backend server, so a lightweight block cipher should also perform well on 64-bit processors
+
+
+\end{document}

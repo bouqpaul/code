@@ -176,15 +176,15 @@ signaux acoustique sous-marin d’origine sismique. Ces méthodes «classiques»
 Du témoignages de Flore SAMARAN il vient que :
 
 \begin{itemize}
-\item a reconnaissance manuelle sur les données sert à identification évènements.
+	\item a reconnaissance manuelle sur les données sert à identification évènements.
 
-Limites : travail fastueux, impossibilité de couvrir tous les enregistrements en un temps
-relativement cours.
+	      Limites : travail fastueux, impossibilité de couvrir tous les enregistrements en un temps
+	      relativement cours.
 
-\item Logiciel et langage de programmation est Matlab
+	\item Logiciel et langage de programmation est Matlab
 
-Limites : pas interopérable, pas calcul distribué, pas open source, pas très performant en
-temps de calcul.
+	      Limites : pas interopérable, pas calcul distribué, pas open source, pas très performant en
+	      temps de calcul.
 
 \end{itemize}
 
@@ -195,27 +195,27 @@ ou moins des approches ou des cibles différentes. Nous pouvons citer :
 
 \begin{itemize}
 
-\item SINAY : plateforme Big Data http://aims.sinay.fr/ qui est un bureau d’étude spécialisé dans
-l’environnement marin donc les principales applications d’études sont :
+	\item SINAY : plateforme Big Data http://aims.sinay.fr/ qui est un bureau d’étude spécialisé dans
+	      l’environnement marin donc les principales applications d’études sont :
 
-\begin{itemize}
+	      \begin{itemize}
 
-\item Surveillance acoustique passive
+		      \item Surveillance acoustique passive
 
-\item Qualité de l’eau
+		      \item Qualité de l’eau
 
-\item Détection des mammifères marin...
+		      \item Détection des mammifères marin...
 
-\end{itemize}
+	      \end{itemize}
 
 \end{itemize}
 
 Toute fois on peut noter quelques limites à SINAY. En effet, SINAY est :
 \begin{itemize}
-\item déconnecté des communautés scientifiques, alors que ce sont les chercheurs qui ont l’expertise et qui ont les données.
+	\item déconnecté des communautés scientifiques, alors que ce sont les chercheurs qui ont l’expertise et qui ont les données.
 
-\item Absences de plateforme en ligne pouvant permettre le traitement par web des données acquis
-par une tierce personne.
+	\item Absences de plateforme en ligne pouvant permettre le traitement par web des données acquis
+	      par une tierce personne.
 \end{itemize}
 
 Nous citerons également le projet “DCL System Using Deep Learning Approaches for Land-
@@ -284,26 +284,26 @@ A partir des exigences, nous avons établit les fonctions principales du systèm
 
 \begin{itemize}
 
-\item Servir des données calculées à partir de gros volume de données brutes
-d’acoustique (FP1)
+	\item Servir des données calculées à partir de gros volume de données brutes
+	      d’acoustique (FP1)
 
-\item Servir des données auxiliaires en les corrélant à des données traitées. (FP2)
+	\item Servir des données auxiliaires en les corrélant à des données traitées. (FP2)
 
-\item Stocker les données (FC1)
+	\item Stocker les données (FC1)
 
-\item Ingérer des données hétérogènes(FC2)
+	\item Ingérer des données hétérogènes(FC2)
 
-\item Ingérer des gros volumes de données(FC3)
+	\item Ingérer des gros volumes de données(FC3)
 
-\item Plateforme doit être ergonomique (FC4)
+	\item Plateforme doit être ergonomique (FC4)
 
-\item Plateforme doit être Esthétique (FC5)
+	\item Plateforme doit être Esthétique (FC5)
 
-\item Respecter le prix (FC6)
+	\item Respecter le prix (FC6)
 
-\item Plateforme doit être sécurisé, libre d’accès et compatible(FC7)
+	\item Plateforme doit être sécurisé, libre d’accès et compatible(FC7)
 
-\item Rapidité de calcul et d’ingestion de données(FC8)
+	\item Rapidité de calcul et d’ingestion de données(FC8)
 
 \end{itemize}
 
@@ -321,47 +321,47 @@ Nous avons également décrit les fonctions du système sous la forme du tableau
 \definecolor{headb}{HTML}{1F497D}
 \definecolor{lineb}{HTML}{D3DFEE}
 %\setlength\LTleft{-3cm}
-	\begin{longtable}{|p{1cm}|p{3cm}|p{6cm}|p{5.5cm}|p{30px}|}
-        \hline
-        \rowcolor{headb}
-	{\color{white}ID} & {\color{white}Type} & {\color{white}Expression} & {\color{white}Raison d'être} & {\color{white}Priorité} \\
-        \hline
-        FP1 & Fonction principale & Servir des données calculées à partir de gros volume de données brutes d’acoustique & & \cellcolor{white} \\\cline{1-3}
-        \rowcolor{lineb}
-        FP11 & Fonction auxiliaire & Ingérer les données acoustiques brutes &\cellcolor{white} & \cellcolor{white} \\\cline{1-3}
-        FP111 & Fonction auxiliaire & Extraire les métadonnées utiles lors de l'ingestion & \cellcolor{white} & \cellcolor{white} \\\cline{1-3}
-        \rowcolor{lineb}
-        FP112 & Fonction auxiliaire & Stocker les données brutes & \cellcolor{white} & \cellcolor{white} \\\cline{1-3}
-        FP12 & Fonction auxiliaire & Effectuer les traitements sur les données brutes & \cellcolor{white} & \cellcolor{white} \\\cline{1-3}
-        \rowcolor{lineb}
-	FP13 & Fonction auxiliaire & Stocker les données calculées & \cellcolor{white} \cellcolor{white}\makecell[c]{\cellcolor{white} Fournir à l'u\-ti\-li\-sa\-teur\\ le service de\-man\-dé} & \cellcolor{white} \multirowcell{-2}{3} \\\cline{1-3}
-        FP14 & Fonction auxiliaire & Servir les données traitées à travers un serveur web & \cellcolor{white} & \cellcolor{white} \\\cline{1-3}
-        \rowcolor{lineb}
-        FP141 & Fonction auxiliaire & Saisir la requête de l'utilisateur et servir les données correspondantes & \cellcolor{white} & \cellcolor{white} \\\cline{1-3}
-	FP142 & Fonction auxiliaire & Intégrer les données obtenues à une visualisation adéquate & & \\\cline{1-3}\cline{5-5}
-        \rowcolor{lineb}
-	FP2 & Fonction principale & Servir les données auxiliaires en les corelant à des données traitées & \cellcolor{white} & 2 \\\hline
-        FP21 & Fonction auxiliaire & Ingérer des données auxiliaires & \cellcolor{lineb} & 2 \\\cline{1-3}
-        \rowcolor{lineb}
-	FP22 & Fonction auxiliaire & Stocker les données auxiliaires & \makecell[l]{Posséder plus d'information pour\\une meilleure compréhension\\de certains phénomènes\cellcolor{lineb}} & 2 \\\hline
-        FP23 & Fonction auxiliaire & Saisir la requête de l'utilisateur & Servir un ensemble personnalisé d'informations & 2 \\\hline
-        \rowcolor{lineb}
-        FP24 & Fonction auxiliaire & Corréler les données auxiliaire aux données calculés sur la base de la requête de l'utilisateur & Préparé les données pour une future requête utilisateur & 2 \\\hline
-        FP25 & Fonction auxiliaire & Servir les données correspondantes & Respecter la demande de l'utilisateur & 2 \\\hline
-        \rowcolor{lineb}
-        FP26 & Fonction auxiliaire & Intégrer les données obtenues à une visualisation adéquate & Permettre à l'utilisateur une meilleure compréhension         & 1 \\\hline
-        FC1 & Fonction contrainte & Stocker les données & (vide) & 2 \\\hline
-        \rowcolor{lineb}
-        FC2 & Fonction contrainte & Ingérer des données hétérogènes & & 1 \\\cline{1-3}
-	FC3 & Fonction contrainte & Ingérer des gros volumes de données & \cellcolor{lineb}\makecell[c]{Permettre une certaine\\flexibilité à l'utilisateur} & 2 \\\hline
-        \rowcolor{lineb}
-        FC4 & Fonction contrainte & Être ergonomique &\cellcolor{white} & 1 \\\cline{1-3}
-	FC5 & Fonction contrainte & Être esthétique & \makecell[c]{Fournir un espace de travail\\ conviviale et facile d'utilisation} & 1 \\\hline
-        \rowcolor{lineb}
-        FC6 & Fonction contrainte & Respecter le prix & Le client désire réduire le coût de la réalisation & 3 \\\hline
-        FC7 & Fonction contrainte & Être securisé, libre d'accès et compatible & L'utilisateur désire une disponibilité et une sécurité optimale & 3 \\\hline
-        \rowcolor{lineb}
-        FC8 & Fonction contrainte & Limiter le temps de calcul & Réduire le temps d'attente de l'utilisateur & 2 \\\hline
+\begin{longtable}{|p{1cm}|p{3cm}|p{6cm}|p{5.5cm}|p{30px}|}
+	\hline
+	\rowcolor{headb}
+	{\color{white}ID} & {\color{white}Type} & {\color{white}Expression}                                                                       & {\color{white}Raison d'être}                                                                      & {\color{white}Priorité} \\
+	\hline
+	FP1               & Fonction principale & Servir des données calculées à partir de gros volume de données brutes d’acoustique             &                                                                                                   & \cellcolor{white}       \\\cline{1-3}
+	\rowcolor{lineb}
+	FP11              & Fonction auxiliaire & Ingérer les données acoustiques brutes                                                          & \cellcolor{white}                                                                                 & \cellcolor{white}       \\\cline{1-3}
+	FP111             & Fonction auxiliaire & Extraire les métadonnées utiles lors de l'ingestion                                             & \cellcolor{white}                                                                                 & \cellcolor{white}       \\\cline{1-3}
+	\rowcolor{lineb}
+	FP112             & Fonction auxiliaire & Stocker les données brutes                                                                      & \cellcolor{white}                                                                                 & \cellcolor{white}       \\\cline{1-3}
+	FP12              & Fonction auxiliaire & Effectuer les traitements sur les données brutes                                                & \cellcolor{white}                                                                                 & \cellcolor{white}       \\\cline{1-3}
+	\rowcolor{lineb}
+	FP13              & Fonction auxiliaire & Stocker les données calculées                                                                   & \cellcolor{white} \cellcolor{white}\makecell[c]{\cellcolor{white} Fournir à l'u\-ti\-li\-sa\-teur                           \\ le service de\-man\-dé} & \cellcolor{white} \multirowcell{-2}{3} \\\cline{1-3}
+	FP14              & Fonction auxiliaire & Servir les données traitées à travers un serveur web                                            & \cellcolor{white}                                                                                 & \cellcolor{white}       \\\cline{1-3}
+	\rowcolor{lineb}
+	FP141             & Fonction auxiliaire & Saisir la requête de l'utilisateur et servir les données correspondantes                        & \cellcolor{white}                                                                                 & \cellcolor{white}       \\\cline{1-3}
+	FP142             & Fonction auxiliaire & Intégrer les données obtenues à une visualisation adéquate                                      &                                                                                                   &                         \\\cline{1-3}\cline{5-5}
+	\rowcolor{lineb}
+	FP2               & Fonction principale & Servir les données auxiliaires en les corelant à des données traitées                           & \cellcolor{white}                                                                                 & 2                       \\\hline
+	FP21              & Fonction auxiliaire & Ingérer des données auxiliaires                                                                 & \cellcolor{lineb}                                                                                 & 2                       \\\cline{1-3}
+	\rowcolor{lineb}
+	FP22              & Fonction auxiliaire & Stocker les données auxiliaires                                                                 & \makecell[l]{Posséder plus d'information pour                                                                               \\une meilleure compréhension\\de certains phénomènes\cellcolor{lineb}} & 2 \\\hline
+	FP23              & Fonction auxiliaire & Saisir la requête de l'utilisateur                                                              & Servir un ensemble personnalisé d'informations                                                    & 2                       \\\hline
+	\rowcolor{lineb}
+	FP24              & Fonction auxiliaire & Corréler les données auxiliaire aux données calculés sur la base de la requête de l'utilisateur & Préparé les données pour une future requête utilisateur                                           & 2                       \\\hline
+	FP25              & Fonction auxiliaire & Servir les données correspondantes                                                              & Respecter la demande de l'utilisateur                                                             & 2                       \\\hline
+	\rowcolor{lineb}
+	FP26              & Fonction auxiliaire & Intégrer les données obtenues à une visualisation adéquate                                      & Permettre à l'utilisateur une meilleure compréhension                                             & 1                       \\\hline
+	FC1               & Fonction contrainte & Stocker les données                                                                             & (vide)                                                                                            & 2                       \\\hline
+	\rowcolor{lineb}
+	FC2               & Fonction contrainte & Ingérer des données hétérogènes                                                                 &                                                                                                   & 1                       \\\cline{1-3}
+	FC3               & Fonction contrainte & Ingérer des gros volumes de données                                                             & \cellcolor{lineb}\makecell[c]{Permettre une certaine                                                                        \\flexibilité à l'utilisateur} & 2 \\\hline
+	\rowcolor{lineb}
+	FC4               & Fonction contrainte & Être ergonomique                                                                                & \cellcolor{white}                                                                                 & 1                       \\\cline{1-3}
+	FC5               & Fonction contrainte & Être esthétique                                                                                 & \makecell[c]{Fournir un espace de travail                                                                                   \\ conviviale et facile d'utilisation} & 1 \\\hline
+	\rowcolor{lineb}
+	FC6               & Fonction contrainte & Respecter le prix                                                                               & Le client désire réduire le coût de la réalisation                                                & 3                       \\\hline
+	FC7               & Fonction contrainte & Être securisé, libre d'accès et compatible                                                      & L'utilisateur désire une disponibilité et une sécurité optimale                                   & 3                       \\\hline
+	\rowcolor{lineb}
+	FC8               & Fonction contrainte & Limiter le temps de calcul                                                                      & Réduire le temps d'attente de l'utilisateur                                                       & 2                       \\\hline
 
 	\caption{Fonctions du système}
 \end{longtable}
@@ -382,7 +382,7 @@ Nous avons également décrit les fonctions du système sous la forme du tableau
 \textbf{FP1} : Servir des données calculées à partir de gros volume de données brutes d’acoustique.
 
 \begin{figure}[h]
-\centering
+	\centering
 	\includegraphics[width=0.8\textwidth]{./tmp/ChaineFonct.png}
 	\caption{Chaine fonctionnelle FP1}
 \end{figure}
@@ -390,7 +390,7 @@ Nous avons également décrit les fonctions du système sous la forme du tableau
 \textbf{FP2} : Servir des données auxiliaires en les corrélant à des données traitées.
 
 \begin{figure}[h]
-\centering
+	\centering
 	\includegraphics[width=0.8\textwidth]{./tmp/ChaineFonct2.png}
 	\caption{Chaine fonctionnelle FP2}
 \end{figure}
@@ -403,17 +403,17 @@ préliminaire suivante, en commençant par les sous-systèmes que nous avons ide
 
 \begin{itemize}
 
-\item Sous-système d’ingestion de données
+	\item Sous-système d’ingestion de données
 
-\item Sous-système de stockage des données massive
+	\item Sous-système de stockage des données massive
 
-\item Sous-système de traitement des données massives
+	\item Sous-système de traitement des données massives
 
-\item Sous-système de stockage des données traités et auxiliaires
+	\item Sous-système de stockage des données traités et auxiliaires
 
-\item Sous-système de serveur web
+	\item Sous-système de serveur web
 
-\item Sous-système de visualisation web
+	\item Sous-système de visualisation web
 
 \end{itemize}
 
@@ -431,29 +431,29 @@ Ce projet est un travail collaboratif, l’équipe est un groupe de 6 étudiants
 à un rôle spécifique. Le tableau ci-dessous présente le rôle de chaque membre au sein du projet,
 c’est-à-dire sur quel sous-projet il travaille.
 
-	\begin{table}[!h]
+\begin{table}[!h]
 
-\begin{center}
-	\begin{tabular}{|l|c|}
+	\begin{center}
+		\begin{tabular}{|l|c|}
 
-\hline
-        \rowcolor{headb} \multicolumn{1}{|c|}{{\color{white}\'Etudiant}}  & {\color{white}Sous-projet}\\
-\hline
-        \rowcolor{lineb}
-        ABDALLAH Ghina          & Middleware\\
-        BAKI Yvan               & Backend\\
-        \rowcolor{lineb}
-        BOUQUET Paul            & Backend\\
-        MORICONI Florent        & Middleware\\
-        \rowcolor{lineb}
-        SONGO SONKENG Cedrice Aurel & Middleware\\
-        DEGURSE Alexandre       & Middleware\\
-        \hline
-\end{tabular}
+			\hline
+			\rowcolor{headb} \multicolumn{1}{|c|}{{\color{white}\'Etudiant}} & {\color{white}Sous-projet} \\
+			\hline
+			\rowcolor{lineb}
+			ABDALLAH Ghina                                                   & Middleware                 \\
+			BAKI Yvan                                                        & Backend                    \\
+			\rowcolor{lineb}
+			BOUQUET Paul                                                     & Backend                    \\
+			MORICONI Florent                                                 & Middleware                 \\
+			\rowcolor{lineb}
+			SONGO SONKENG Cedrice Aurel                                      & Middleware                 \\
+			DEGURSE Alexandre                                                & Middleware                 \\
+			\hline
+		\end{tabular}
 
-	\caption{Répartition de l'équipe}
+		\caption{Répartition de l'équipe}
 
-\end{center}
+	\end{center}
 \end{table}
 
 Même si nous ne travaillons pas tous sur la même partie du projet, nous avons eu besoin de mettre
@@ -482,55 +482,55 @@ commencer le travail), Ongoing, CodeReview (évaluation du travail effectué par
 membles du groupe) et Done.
 
 \begin{figure}[!htb]
-   \begin{minipage}{0.48\textwidth}
-     \centering
-     \includegraphics[width=.7\linewidth]{./tmp/CarteTrello.png}
-	   \caption{Détails d'une carte de Trello\label{CarteTrello}} 
-   \end{minipage}\hfill
-   \begin {minipage}{0.48\textwidth}
-     \centering
-     \includegraphics[width=.7\linewidth]{./tmp/Trello.png}
-	\caption{Aspect général de Trello\label{TabTrello}}
-   \end{minipage}
+\begin{minipage}{0.48\textwidth}
+	\centering
+	\includegraphics[width=.7\linewidth]{./tmp/CarteTrello.png}
+	\caption{Détails d'une carte de Trello\label{CarteTrello}}
+\end{minipage}\hfill
+\begin {minipage}{0.48\textwidth}
+\centering
+\includegraphics[width=.7\linewidth]{./tmp/Trello.png}
+\caption{Aspect général de Trello\label{TabTrello}}
+\end{minipage}
 \end{figure}
 
 \newpage
 \subsection{Communication dans le groupe}
 \begin{figure}[h]
-\begin{minipage}{.48\textwidth}
-%\begin{wrapfigure}{l}{150px}
-	\centering
-	\includegraphics[width=200px]{./tmp/ChanSlack.png}
-	\caption{Exemple de channel}
-%\end{wrapfigure}
-\end{minipage}
-\begin{minipage}{.48\textwidth}
+	\begin{minipage}{.48\textwidth}
+		%\begin{wrapfigure}{l}{150px}
+		\centering
+		\includegraphics[width=200px]{./tmp/ChanSlack.png}
+		\caption{Exemple de channel}
+		%\end{wrapfigure}
+	\end{minipage}
+	\begin{minipage}{.48\textwidth}
 
-La communication et les échanges entre les différents
-membres de l’équipe est étant primordiale dans un
-projet collaboratif. Nous avons choisi Slack comme une
-plate-forme de communication.
-\\
+		La communication et les échanges entre les différents
+		membres de l’équipe est étant primordiale dans un
+		projet collaboratif. Nous avons choisi Slack comme une
+		plate-forme de communication.
+		\\
 
-Il nous permet de simplifier et de mieux organiser nos
-échanges. Nous avons la possibilité de créer des
-chaînes de discussions afin d’organiser les messages
-mais aussi de suivre facilement le fil des discussions
-concernant chaque partie du projet.
-\\
+		Il nous permet de simplifier et de mieux organiser nos
+		échanges. Nous avons la possibilité de créer des
+		chaînes de discussions afin d’organiser les messages
+		mais aussi de suivre facilement le fil des discussions
+		concernant chaque partie du projet.
+		\\
 
-Slack permet aussi de « poker » une personne, en
-écrivant @’’nom’’, cela permet de l’interpeller en lui
-envoyant un mail de notification. Cela est utile afin
-d’être réactif quand nécessaire.
-\end{minipage}
+		Slack permet aussi de « poker » une personne, en
+		écrivant @’’nom’’, cela permet de l’interpeller en lui
+		envoyant un mail de notification. Cela est utile afin
+		d’être réactif quand nécessaire.
+	\end{minipage}
 \end{figure}
 
 
 \newpage
 Ci-dessous, un exemple de fil de discussion Slack.
 \begin{figure}[!h]
-\centering
+	\centering
 	\includegraphics[keepaspectratio, height=150px]{./tmp/ChatSlack.png}
 \end{figure}
 
